@@ -15,6 +15,7 @@ export function GraphCanvas() {
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const [hoverNode, setHoverNode] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const hasInitialFit = useRef(false);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -168,8 +169,13 @@ export function GraphCanvas() {
         d3VelocityDecay={0.3}
         cooldownTicks={isPathMode ? 50 : 200}
         onEngineStop={() => {
-          if (graphRef.current && !selectedNodeId) {
-            graphRef.current.zoomToFit(800, 50);
+          if (graphRef.current) {
+            if (!hasInitialFit.current) {
+              graphRef.current.zoomToFit(800, 50);
+              hasInitialFit.current = true;
+            } else if (!selectedNodeId) {
+              graphRef.current.zoomToFit(800, 50);
+            }
           }
         }}
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
