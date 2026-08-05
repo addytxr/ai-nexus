@@ -1,10 +1,18 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { ThemeProvider } from '@/components/theme-provider';
+import { GraphProvider } from '@/lib/store/graph-context';
+import { Sidebar } from '@/components/layout/sidebar';
+import { TopNav } from '@/components/layout/top-nav';
+import { GlobalSearch } from '@/components/search/global-search';
+import { ReactQueryProvider } from '@/lib/store/query-provider';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: "AI Nexus",
-  description: "Explore the connected world of AI models, tools, companies, protocols and integrations through an interactive graph database.",
+  title: 'AI Nexus',
+  description: 'The definitive knowledge graph of the AI ecosystem.',
 };
 
 export default function RootLayout({
@@ -14,15 +22,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased min-h-screen bg-background font-sans">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem={false}
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+      <body className={`${inter.variable} antialiased`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
+          <ReactQueryProvider>
+            <GraphProvider>
+            <div className="flex h-screen w-full overflow-hidden bg-background text-foreground selection:bg-primary/20">
+              <Sidebar />
+              <div className="flex flex-col flex-1 overflow-hidden relative">
+                <TopNav />
+                <main className="flex-1 overflow-hidden relative">
+                  {children}
+                </main>
+              </div>
+              <GlobalSearch />
+            </div>
+          </GraphProvider>
+        </ReactQueryProvider>
+      </ThemeProvider>
       </body>
     </html>
   );
