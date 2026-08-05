@@ -15,7 +15,7 @@ export default function HealthPage() {
         } else {
           setStatus('Failed to connect to Health API.');
         }
-      } catch (e) {
+      } catch {
         setStatus('Error checking health status.');
       }
     }

@@ -16,7 +16,7 @@ async function seed() {
   
   try {
     console.log('Creating constraints...');
-    const nodeLabels = new Set<string>(seedData.nodes.map((n: any) => n.label));
+    const nodeLabels = new Set<string>(seedData.nodes.map((n: { label: string }) => n.label));
     
     for (const label of nodeLabels) {
       await session.run(`CREATE CONSTRAINT IF NOT EXISTS FOR (n:${label}) REQUIRE n.id IS UNIQUE`);

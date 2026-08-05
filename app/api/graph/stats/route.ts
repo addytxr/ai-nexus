@@ -1,27 +1,13 @@
 import { NextResponse } from 'next/server';
-import { getDriver } from '@/lib/db/neo4j';
+import { getGraphStats } from '@/lib/services/graph';
 
 export async function GET() {
   try {
-    const driver = getDriver();
-    const session = driver.session();
-    
-    const result = await session.run(`
-      MATCH (n)
-      WITH count(n) AS totalNodes
-      MATCH ()-[r]->()
-      RETURN totalNodes, count(r) AS totalEdges
-    `);
-    
-    await session.close();
-
-    const stats = {
-      nodes: result.records[0].get('totalNodes').toInt(),
-      relationships: result.records[0].get('totalEdges').toInt(),
-    };
-
-    return NextResponse.json({ status: 'ok', data: stats }, { status: 200 });
-  } catch (error: any) {
-    return NextResponse.json({ status: 'error', message: error.message }, { status: 500 });
+    const stats = await getGraphStats();
+    return NextResponse.json({ data: stats }, { status: 200 });
+  } catch (error: unknown) {
+    console.error('Graph Stats API Error:', error);
+    const message = error instanceof Error ? error.message : 'Internal Server Error';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
