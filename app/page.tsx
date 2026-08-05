@@ -10,7 +10,7 @@ import { X, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Home() {
-  const { selectedNodeId, isPathMode } = useGraph();
+  const { isPathMode } = useGraph();
   const [showWelcome, setShowWelcome] = useState(true);
 
   return (

@@ -10,6 +10,15 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/components/ui/command';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
+const SUGGESTIONS = [
+  { id: '7dea3224-032a-4694-ae51-c02aa867b48e', name: 'Cursor', label: 'Tool' },
+  { id: '31d60832-67b6-4be9-9355-7f908f465377', name: 'Claude 3.5 Sonnet', label: 'Model' },
+  { id: '28745d0c-5f66-4d2b-996c-2933157c10d5', name: 'GPT-4o', label: 'Model' },
+  { id: '5528b810-4d25-45fe-88b7-1e6186fc9c2b', name: 'LangChain', label: 'Framework' },
+  { id: 'd0670952-32e2-4169-863e-66a2d785861a', name: 'OpenAI', label: 'Company' },
+  { id: '4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6', name: 'Anthropic', label: 'Company' },
+];
+
 // Custom Search Combobox
 function NodeSelector({ value, onSelect, placeholder }: { value: string | null, onSelect: (id: string, name: string) => void, placeholder: string }) {
   const [open, setOpen] = useState(false);
@@ -32,25 +41,49 @@ function NodeSelector({ value, onSelect, placeholder }: { value: string | null, 
         <Command>
           <CommandInput placeholder="Search node..." value={query} onValueChange={setQuery} />
           <CommandList>
-            <CommandEmpty>{isLoading ? 'Searching...' : 'No results found.'}</CommandEmpty>
-            <CommandGroup>
-              <ScrollArea className="h-48">
-                {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-                {data?.data?.map((node: any) => (
-                  <CommandItem
-                    key={node.id}
-                    value={node.name}
-                    onSelect={() => {
-                      setName(node.name);
-                      onSelect(node.id, node.name);
-                      setOpen(false);
-                    }}
-                  >
-                    {node.name}
-                  </CommandItem>
-                ))}
-              </ScrollArea>
-            </CommandGroup>
+            <CommandEmpty>{isLoading ? 'Searching...' : query.length > 0 ? 'No results found.' : 'Search for a node'}</CommandEmpty>
+            <ScrollArea className="h-64">
+              {!query && (
+                <CommandGroup heading="Suggested">
+                  {SUGGESTIONS.map(node => (
+                    <CommandItem
+                      key={node.id}
+                      value={node.name}
+                      onSelect={() => {
+                        setName(node.name);
+                        onSelect(node.id, node.name);
+                        setOpen(false);
+                      }}
+                      className="cursor-pointer"
+                    >
+                      <div className="flex flex-col">
+                        <span>{node.name}</span>
+                        <span className="text-[10px] text-muted-foreground uppercase">{node.label}</span>
+                      </div>
+                    </CommandItem>
+                  ))}
+                </CommandGroup>
+              )}
+              {query.length > 0 && data?.data && (
+                <CommandGroup heading="Results">
+                  {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                  {data.data.map((node: any) => (
+                    <CommandItem
+                      key={node.id}
+                      value={node.name}
+                      onSelect={() => {
+                        setName(node.name);
+                        onSelect(node.id, node.name);
+                        setOpen(false);
+                      }}
+                      className="cursor-pointer"
+                    >
+                      {node.name}
+                    </CommandItem>
+                  ))}
+                </CommandGroup>
+              )}
+            </ScrollArea>
           </CommandList>
         </Command>
       </PopoverContent>

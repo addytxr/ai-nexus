@@ -83,23 +83,6 @@ export function GraphCanvas() {
   });
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const links = graphData.edges?.map((e: any) => {
-    const isPathEdge = isPathMode && shortestPath;
-    const sourceId = typeof e.source === 'object' ? e.source.id : e.source;
-    const targetId = typeof e.target === 'object' ? e.target.id : e.target;
-    const activeNode = hoverNode || selectedNodeId;
-    const isConnectedToActive = activeNode && (sourceId === activeNode || targetId === activeNode);
-    
-    return {
-      source: e.source,
-      target: e.target,
-      name: e.type,
-      color: isPathEdge ? 'rgba(59, 130, 246, 0.8)' : isConnectedToActive ? 'rgba(150, 150, 150, 0.6)' : 'rgba(150, 150, 150, 0.15)',
-      width: isPathEdge ? 2 : isConnectedToActive ? 1.5 : 0.8
-    };
-  }) || [];
-
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleNodeClick = useCallback((node: any) => {
     setSelectedNodeId(node.id);
     setDrawerOpen(true);
@@ -107,7 +90,7 @@ export function GraphCanvas() {
       graphRef.current.centerAt(node.x, node.y, 1000);
       graphRef.current.zoom(2.5, 1000);
     }
-  }, [setSelectedNodeId]);
+  }, [setSelectedNodeId, setDrawerOpen]);
 
   return (
     <div ref={containerRef} className="absolute inset-0 bg-background dark:bg-background/95">
@@ -149,18 +132,39 @@ export function GraphCanvas() {
         ref={graphRef}
         width={dimensions.width}
         height={dimensions.height}
-        graphData={{ nodes: graphData.nodes, links }}
+        graphData={{ nodes: graphData.nodes, links: graphData.edges || [] }}
         nodeId="id"
         nodeLabel="name"
         nodeRelSize={6}
-        linkColor="color"
-        linkWidth="width"
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        linkColor={(link: any) => {
+          const isPathEdge = isPathMode && shortestPath;
+          const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
+          const targetId = typeof link.target === 'object' ? link.target.id : link.target;
+          const activeNode = hoverNode || selectedNodeId;
+          const isConnected = activeNode && (sourceId === activeNode || targetId === activeNode);
+          return isPathEdge ? 'rgba(59, 130, 246, 0.8)' : isConnected ? 'rgba(150, 150, 150, 0.6)' : 'rgba(150, 150, 150, 0.15)';
+        }}
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        linkWidth={(link: any) => {
+          const isPathEdge = isPathMode && shortestPath;
+          const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
+          const targetId = typeof link.target === 'object' ? link.target.id : link.target;
+          const activeNode = hoverNode || selectedNodeId;
+          const isConnected = activeNode && (sourceId === activeNode || targetId === activeNode);
+          return isPathEdge ? 2 : isConnected ? 1.5 : 0.8;
+        }}
         linkDirectionalArrowLength={3.5}
         linkDirectionalArrowRelPos={1}
         linkCurvature={0.2}
         onNodeClick={handleNodeClick}
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        onNodeHover={(node: any) => setHoverNode(node ? node.id : null)}
+        onNodeHover={(node: any) => {
+          setHoverNode(node ? node.id : null);
+          if (containerRef.current) {
+            containerRef.current.style.cursor = node ? 'pointer' : 'default';
+          }
+        }}
         d3VelocityDecay={0.3}
         cooldownTicks={isPathMode ? 50 : 200}
         onEngineStop={() => {
@@ -177,14 +181,15 @@ export function GraphCanvas() {
           const isNeighbor = neighborIds.has(node.id);
           const isFaded = activeNode && !isActive && !isNeighbor;
           
-          const label = node.name;
+          const label = node.name || '';
           const fontSize = isActive ? 14/globalScale : 11/globalScale;
           
+          ctx.save();
           ctx.globalAlpha = isFaded ? 0.2 : 1;
           
           // Draw Glow
           if (isActive) {
-            ctx.shadowColor = node.color;
+            ctx.shadowColor = node.color || '#888';
             ctx.shadowBlur = 20 * globalScale;
           } else {
             ctx.shadowBlur = 0;
@@ -193,7 +198,7 @@ export function GraphCanvas() {
           // Draw Node Circle
           ctx.beginPath();
           ctx.arc(node.x, node.y, isActive ? 8 : 6, 0, 2 * Math.PI, false);
-          ctx.fillStyle = node.color;
+          ctx.fillStyle = node.color || '#888';
           ctx.fill();
           
           // Draw Border
@@ -230,7 +235,7 @@ export function GraphCanvas() {
             ctx.fillStyle = isActive ? '#ffffff' : '#e5e7eb';
             ctx.fillText(label, node.x, textY);
           }
-          ctx.globalAlpha = 1;
+          ctx.restore();
         }}
       />
     </div>
