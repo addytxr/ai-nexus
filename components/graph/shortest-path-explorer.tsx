@@ -117,13 +117,17 @@ export function ShortestPathExplorer() {
 
         {data?.data && (
           <div className="mt-4 space-y-3 pt-4 border-t border-border/50">
-            <h4 className="text-sm font-semibold">Path Explanation</h4>
-            <ScrollArea className="h-48">
-              <div className="text-sm space-y-2 pr-4">
+            <h4 className="text-sm font-semibold mb-3">Path Timeline</h4>
+            <ScrollArea className="h-56 pr-3">
+              <div className="relative text-sm space-y-0 before:absolute before:inset-y-0 before:left-2.5 before:w-[2px] before:bg-border/50">
                 {data.data.explanation.map((exp: string, idx: number) => (
-                  <div key={idx} className="flex gap-3 text-muted-foreground bg-muted/40 p-2.5 rounded-lg border border-border/30 shadow-sm">
-                    <span className="shrink-0 font-mono text-[10px] font-bold bg-primary text-primary-foreground w-4 h-4 flex items-center justify-center rounded mt-0.5">{idx + 1}</span>
-                    <span className="leading-snug">{exp}</span>
+                  <div key={idx} className="relative flex items-start gap-4 pb-5 last:pb-0">
+                    <div className="relative z-10 shrink-0 font-mono text-[10px] font-bold bg-primary text-primary-foreground w-5 h-5 flex items-center justify-center rounded-full shadow-sm ring-4 ring-background mt-0.5">
+                      {idx + 1}
+                    </div>
+                    <div className="flex-1 text-muted-foreground/90 bg-card/50 p-3 rounded-xl border border-border/60 shadow-sm leading-relaxed">
+                      {exp}
+                    </div>
                   </div>
                 ))}
               </div>

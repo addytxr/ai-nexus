@@ -13,6 +13,7 @@ export function GraphCanvas() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const graphRef = useRef<any>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
+  const [hoverNode, setHoverNode] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -41,19 +42,50 @@ export function GraphCanvas() {
 
   const activeData = isPathMode ? pathData?.data : neighborData?.data;
   const isLoading = isPathMode ? pathLoading : neighborLoading;
+  // Map colors by label
+  const getColor = (label: string) => {
+    const colors: Record<string, string> = {
+      Model: '#3b82f6', // Blue
+      Tool: '#10b981', // Emerald
+      Company: '#f59e0b', // Amber
+      Framework: '#8b5cf6', // Violet
+      VectorDB: '#ec4899', // Pink
+      Provider: '#06b6d4', // Cyan
+      Integration: '#f97316', // Orange
+      API: '#eab308', // Yellow
+      Protocol: '#64748b', // Slate
+      Category: '#ef4444', // Red
+    };
+    return colors[label] || '#888888';
+  };
+
   const graphData = activeData || { nodes: [], edges: [] };
 
+  // Set colors and properties on nodes
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const links = graphData.edges?.map((e: any) => ({
-    source: e.source,
-    target: e.target,
-    name: e.type,
-    color: 'rgba(150, 150, 150, 0.4)'
-  })) || [];
+  graphData.nodes.forEach((n: any) => {
+    n.color = getColor(n.label);
+  });
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const links = graphData.edges?.map((e: any) => {
+    const isPathEdge = isPathMode && shortestPath;
+    return {
+      source: e.source,
+      target: e.target,
+      name: e.type,
+      color: isPathEdge ? 'rgba(59, 130, 246, 0.8)' : 'rgba(150, 150, 150, 0.25)',
+      width: isPathEdge ? 2 : 1
+    };
+  }) || [];
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleNodeClick = useCallback((node: any) => {
     setSelectedNodeId(node.id);
+    if (graphRef.current) {
+      graphRef.current.centerAt(node.x, node.y, 1000);
+      graphRef.current.zoom(2.5, 1000);
+    }
   }, [setSelectedNodeId]);
 
   return (
@@ -90,35 +122,78 @@ export function GraphCanvas() {
         graphData={{ nodes: graphData.nodes, links }}
         nodeId="id"
         nodeLabel="name"
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        nodeColor={(n: any) => n.id === selectedNodeId ? '#ffffff' : (n.color || '#888')}
         nodeRelSize={6}
         linkColor="color"
-        linkWidth={1.5}
+        linkWidth="width"
         linkDirectionalArrowLength={3.5}
         linkDirectionalArrowRelPos={1}
+        linkCurvature={0.2}
         onNodeClick={handleNodeClick}
-        cooldownTicks={100}
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        onNodeHover={(node: any) => setHoverNode(node ? node.id : null)}
+        d3VelocityDecay={0.3}
+        cooldownTicks={isPathMode ? 50 : 200}
         onEngineStop={() => {
-          if (graphRef.current) {
-            graphRef.current.zoomToFit(400, 50);
+          if (graphRef.current && !selectedNodeId) {
+            graphRef.current.zoomToFit(800, 50);
           }
         }}
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         nodeCanvasObject={(node: any, ctx, globalScale) => {
-          const label = node.name;
-          const fontSize = 12/globalScale;
-          ctx.font = `${fontSize}px Sans-Serif`;
-          ctx.textAlign = 'center';
-          ctx.textBaseline = 'middle';
-          ctx.fillStyle = node.id === selectedNodeId ? '#ffffff' : (node.color || '#cccccc');
+          const isSelected = node.id === selectedNodeId;
+          const isHovered = node.id === hoverNode;
+          const isActive = isSelected || isHovered;
           
+          const label = node.name;
+          const fontSize = isActive ? 14/globalScale : 12/globalScale;
+          
+          // Draw Glow
+          if (isActive) {
+            ctx.shadowColor = node.color;
+            ctx.shadowBlur = 15 * globalScale;
+          } else {
+            ctx.shadowBlur = 0;
+          }
+          
+          // Draw Node Circle
           ctx.beginPath();
-          ctx.arc(node.x, node.y, node.id === selectedNodeId ? 7 : 5, 0, 2 * Math.PI, false);
+          ctx.arc(node.x, node.y, isActive ? 8 : 6, 0, 2 * Math.PI, false);
+          ctx.fillStyle = node.color;
           ctx.fill();
           
-          if (globalScale > 1.5 || node.id === selectedNodeId) {
-            ctx.fillText(label, node.x, node.y + (node.id === selectedNodeId ? 10 : 8));
+          // Draw Border
+          ctx.strokeStyle = isActive ? '#ffffff' : '#1a1a1a';
+          ctx.lineWidth = isActive ? 2 / globalScale : 1 / globalScale;
+          ctx.stroke();
+          
+          // Reset shadow for text
+          ctx.shadowBlur = 0;
+          
+          // Draw Label
+          if (globalScale > 1.2 || isActive) {
+            ctx.font = `${isActive ? 'bold' : 'normal'} ${fontSize}px Inter, sans-serif`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            
+            // Text background pill for readability
+            const textWidth = ctx.measureText(label).width;
+            const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.4);
+            const textY = node.y + (isActive ? 14 : 10);
+            
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.6)';
+            ctx.beginPath();
+            ctx.roundRect(
+              node.x - bckgDimensions[0] / 2, 
+              textY - bckgDimensions[1] / 2, 
+              bckgDimensions[0], 
+              bckgDimensions[1], 
+              2
+            );
+            ctx.fill();
+            
+            // Text
+            ctx.fillStyle = isActive ? '#ffffff' : '#d1d5db';
+            ctx.fillText(label, node.x, textY);
           }
         }}
       />
