@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import dynamic from 'next/dynamic';
 import { useGraph } from '@/lib/store/graph-context';
@@ -9,7 +9,7 @@ import { Loader2 } from 'lucide-react';
 const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false });
 
 export function GraphCanvas() {
-  const { selectedNodeId, setSelectedNodeId, graphDepth, setGraphDepth, isPathMode, shortestPath } = useGraph();
+  const { selectedNodeId, setSelectedNodeId, graphDepth, setGraphDepth, isPathMode, shortestPath, setDrawerOpen } = useGraph();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const graphRef = useRef<any>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
@@ -59,6 +59,21 @@ export function GraphCanvas() {
     return colors[label] || '#888888';
   };
 
+  const neighborIds = React.useMemo(() => {
+    const activeNode = hoverNode || selectedNodeId;
+    if (!activeNode || !activeData?.edges) return new Set<string>();
+    
+    const neighbors = new Set<string>();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    activeData.edges.forEach((e: any) => {
+      const sourceId = typeof e.source === 'object' ? e.source.id : e.source;
+      const targetId = typeof e.target === 'object' ? e.target.id : e.target;
+      if (sourceId === activeNode) neighbors.add(targetId);
+      if (targetId === activeNode) neighbors.add(sourceId);
+    });
+    return neighbors;
+  }, [hoverNode, selectedNodeId, activeData]);
+
   const graphData = activeData || { nodes: [], edges: [] };
 
   // Set colors and properties on nodes
@@ -70,18 +85,24 @@ export function GraphCanvas() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const links = graphData.edges?.map((e: any) => {
     const isPathEdge = isPathMode && shortestPath;
+    const sourceId = typeof e.source === 'object' ? e.source.id : e.source;
+    const targetId = typeof e.target === 'object' ? e.target.id : e.target;
+    const activeNode = hoverNode || selectedNodeId;
+    const isConnectedToActive = activeNode && (sourceId === activeNode || targetId === activeNode);
+    
     return {
       source: e.source,
       target: e.target,
       name: e.type,
-      color: isPathEdge ? 'rgba(59, 130, 246, 0.8)' : 'rgba(150, 150, 150, 0.25)',
-      width: isPathEdge ? 2 : 1
+      color: isPathEdge ? 'rgba(59, 130, 246, 0.8)' : isConnectedToActive ? 'rgba(150, 150, 150, 0.6)' : 'rgba(150, 150, 150, 0.15)',
+      width: isPathEdge ? 2 : isConnectedToActive ? 1.5 : 0.8
     };
   }) || [];
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleNodeClick = useCallback((node: any) => {
     setSelectedNodeId(node.id);
+    setDrawerOpen(true);
     if (graphRef.current) {
       graphRef.current.centerAt(node.x, node.y, 1000);
       graphRef.current.zoom(2.5, 1000);
@@ -89,7 +110,7 @@ export function GraphCanvas() {
   }, [setSelectedNodeId]);
 
   return (
-    <div ref={containerRef} className="absolute inset-0 bg-[#0a0a0a]">
+    <div ref={containerRef} className="absolute inset-0 bg-background dark:bg-background/95">
       {isLoading && (
         <div className="absolute inset-0 flex items-center justify-center bg-background/50 z-10 backdrop-blur-sm">
           <Loader2 className="w-8 h-8 animate-spin text-primary" />
@@ -98,20 +119,29 @@ export function GraphCanvas() {
       
       {/* Graph controls overlay */}
       {!isPathMode && (
-        <div className="absolute bottom-6 left-6 z-10 flex bg-card/80 backdrop-blur border border-border/50 rounded-lg overflow-hidden shadow-lg">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex items-center bg-background/80 backdrop-blur-xl border border-border/50 rounded-full p-1.5 shadow-xl">
           {[1, 2, 3].map(depth => (
             <button
               key={depth}
               onClick={() => setGraphDepth(depth)}
-              className={`px-4 py-2 text-sm font-medium transition-colors ${
+              className={`px-4 py-1.5 text-xs font-medium rounded-full transition-all ${
                 graphDepth === depth 
-                  ? 'bg-primary text-primary-foreground' 
-                  : 'hover:bg-accent text-muted-foreground'
+                  ? 'bg-foreground text-background shadow-sm' 
+                  : 'hover:bg-accent text-muted-foreground hover:text-foreground'
               }`}
             >
-              Depth {depth}
+              {depth} Hop{depth > 1 ? 's' : ''}
             </button>
           ))}
+          <div className="w-px h-4 bg-border/50 mx-2" />
+          <button
+            onClick={() => {
+              if (graphRef.current) graphRef.current.zoomToFit(800, 50);
+            }}
+            className="px-4 py-1.5 text-xs font-medium rounded-full hover:bg-accent text-muted-foreground hover:text-foreground transition-all"
+          >
+            Fit
+          </button>
         </div>
       )}
 
@@ -140,17 +170,22 @@ export function GraphCanvas() {
         }}
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         nodeCanvasObject={(node: any, ctx, globalScale) => {
+          const activeNode = hoverNode || selectedNodeId;
           const isSelected = node.id === selectedNodeId;
           const isHovered = node.id === hoverNode;
           const isActive = isSelected || isHovered;
+          const isNeighbor = neighborIds.has(node.id);
+          const isFaded = activeNode && !isActive && !isNeighbor;
           
           const label = node.name;
-          const fontSize = isActive ? 14/globalScale : 12/globalScale;
+          const fontSize = isActive ? 14/globalScale : 11/globalScale;
+          
+          ctx.globalAlpha = isFaded ? 0.2 : 1;
           
           // Draw Glow
           if (isActive) {
             ctx.shadowColor = node.color;
-            ctx.shadowBlur = 15 * globalScale;
+            ctx.shadowBlur = 20 * globalScale;
           } else {
             ctx.shadowBlur = 0;
           }
@@ -180,21 +215,22 @@ export function GraphCanvas() {
             const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.4);
             const textY = node.y + (isActive ? 14 : 10);
             
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.6)';
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
             ctx.beginPath();
             ctx.roundRect(
               node.x - bckgDimensions[0] / 2, 
               textY - bckgDimensions[1] / 2, 
               bckgDimensions[0], 
               bckgDimensions[1], 
-              2
+              4
             );
             ctx.fill();
             
             // Text
-            ctx.fillStyle = isActive ? '#ffffff' : '#d1d5db';
+            ctx.fillStyle = isActive ? '#ffffff' : '#e5e7eb';
             ctx.fillText(label, node.x, textY);
           }
+          ctx.globalAlpha = 1;
         }}
       />
     </div>

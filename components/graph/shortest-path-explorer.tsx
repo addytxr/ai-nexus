@@ -118,16 +118,27 @@ export function ShortestPathExplorer() {
         {data?.data && (
           <div className="mt-4 space-y-3 pt-4 border-t border-border/50">
             <h4 className="text-sm font-semibold mb-3">Path Timeline</h4>
-            <ScrollArea className="h-56 pr-3">
-              <div className="relative text-sm space-y-0 before:absolute before:inset-y-0 before:left-2.5 before:w-[2px] before:bg-border/50">
-                {data.data.explanation.map((exp: string, idx: number) => (
-                  <div key={idx} className="relative flex items-start gap-4 pb-5 last:pb-0">
-                    <div className="relative z-10 shrink-0 font-mono text-[10px] font-bold bg-primary text-primary-foreground w-5 h-5 flex items-center justify-center rounded-full shadow-sm ring-4 ring-background mt-0.5">
-                      {idx + 1}
+            <ScrollArea className="h-64 pr-3">
+              <div className="flex flex-col">
+                {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                {data.data.nodes.map((node: any, idx: number) => (
+                  <div key={`node-${idx}`} className="flex flex-col w-full">
+                    
+                    {/* Node Card */}
+                    <div className="w-full bg-card/40 p-3.5 rounded-xl border border-border/50 shadow-sm flex items-center justify-between group hover:bg-card/80 transition-colors cursor-default">
+                      <span className="font-semibold text-sm text-foreground group-hover:text-primary transition-colors">{node.name}</span>
+                      <span className="text-[10px] uppercase font-bold tracking-widest text-muted-foreground/60 bg-muted/50 px-2 py-1 rounded-md">{node.label}</span>
                     </div>
-                    <div className="flex-1 text-muted-foreground/90 bg-card/50 p-3 rounded-xl border border-border/60 shadow-sm leading-relaxed">
-                      {exp}
-                    </div>
+                    
+                    {/* Edge */}
+                    {idx < data.data.edges.length && (
+                      <div className="flex flex-col items-center my-1 relative">
+                        <div className="w-px h-6 bg-gradient-to-b from-border to-border/30" />
+                        <div className="absolute top-1/2 -translate-y-1/2 text-[9px] font-mono font-bold text-muted-foreground bg-background px-2 py-1 rounded-full border border-border/50 uppercase tracking-widest shadow-sm z-10 whitespace-nowrap">
+                          {data.data.edges[idx].type.replace(/_/g, ' ')}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>

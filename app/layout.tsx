@@ -3,7 +3,6 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import { GraphProvider } from '@/lib/store/graph-context';
-import { Sidebar } from '@/components/layout/sidebar';
 import { TopNav } from '@/components/layout/top-nav';
 import { GlobalSearch } from '@/components/search/global-search';
 import { ReactQueryProvider } from '@/lib/store/query-provider';
@@ -27,7 +26,6 @@ export default function RootLayout({
           <ReactQueryProvider>
             <GraphProvider>
             <div className="flex h-screen w-full overflow-hidden bg-background text-foreground selection:bg-primary/20">
-              <Sidebar />
               <div className="flex flex-col flex-1 overflow-hidden relative">
                 <TopNav />
                 <main className="flex-1 overflow-hidden relative">

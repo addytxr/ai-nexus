@@ -13,16 +13,20 @@ interface GraphState {
   setSearchOpen: (open: boolean) => void;
   isPathMode: boolean;
   setIsPathMode: (mode: boolean) => void;
+  drawerOpen: boolean;
+  setDrawerOpen: (open: boolean) => void;
 }
 
 const GraphContext = createContext<GraphState | undefined>(undefined);
 
 export function GraphProvider({ children }: { children: React.ReactNode }) {
-  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
-  const [graphDepth, setGraphDepth] = useState<number>(1);
+  // Default to OpenAI (d0670952-32e2-4169-863e-66a2d785861a) to show a rich curated graph on first load
+  const [selectedNodeId, setSelectedNodeId] = useState<string | null>('d0670952-32e2-4169-863e-66a2d785861a');
+  const [graphDepth, setGraphDepth] = useState<number>(2);
   const [shortestPath, setShortestPath] = useState<{ source: string; target: string } | null>(null);
   const [searchOpen, setSearchOpen] = useState<boolean>(false);
   const [isPathMode, setIsPathMode] = useState<boolean>(false);
+  const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
 
   return (
     <GraphContext.Provider
@@ -37,6 +41,8 @@ export function GraphProvider({ children }: { children: React.ReactNode }) {
         setSearchOpen,
         isPathMode,
         setIsPathMode,
+        drawerOpen,
+        setDrawerOpen,
       }}
     >
       {children}
