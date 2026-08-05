@@ -21,6 +21,7 @@ export async function searchNodes(query: string) {
              n.icon AS icon, 
              n.color AS color, 
              n.logoUrl AS logoUrl,
+             n.websiteUrl AS websiteUrl,
              rank
       ORDER BY rank ASC, n.name ASC
       LIMIT 20
@@ -34,6 +35,7 @@ export async function searchNodes(query: string) {
       icon: r.get('icon'),
       color: r.get('color'),
       logoUrl: r.get('logoUrl'),
+      websiteUrl: r.get('websiteUrl'),
     }));
   } finally {
     await session.close();
@@ -142,7 +144,7 @@ export async function getSimilarTools(id: string) {
     const cypher = `
       MATCH (t1:Tool {id: $id})-[:USES|INTEGRATES_WITH]->(shared)<-[:USES|INTEGRATES_WITH]-(t2:Tool)
       WHERE t1 <> t2
-      RETURN t2.id AS id, t2.name AS name, t2.logoUrl AS logoUrl, t2.description AS description, count(shared) AS score
+      RETURN t2.id AS id, t2.name AS name, t2.logoUrl AS logoUrl, t2.websiteUrl AS websiteUrl, t2.description AS description, count(shared) AS score
       ORDER BY score DESC
       LIMIT 5
     `;
@@ -152,6 +154,7 @@ export async function getSimilarTools(id: string) {
       name: r.get('name'),
       description: r.get('description'),
       logoUrl: r.get('logoUrl'),
+      websiteUrl: r.get('websiteUrl'),
       score: r.get('score').toInt()
     }));
   } finally {

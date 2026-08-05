@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useGraph } from '@/lib/store/graph-context';
 import { Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/components/ui/command';
-import { Network, Loader2, Sparkles } from 'lucide-react';
+import { Loader2, Sparkles } from 'lucide-react';
+import { NodeLogo } from '@/components/ui/node-logo';
 
 const SUGGESTIONS = [
   { id: '7dea3224-032a-4694-ae51-c02aa867b48e', name: 'Cursor', label: 'Tool', description: 'AI-first code editor.' },
@@ -113,14 +114,13 @@ export function GlobalSearch() {
                     onSelect={() => onSelectNode(node.id)}
                     className="flex items-center gap-3 py-3 cursor-pointer group"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-background flex items-center justify-center shrink-0 border border-border/40 shadow-sm group-hover:border-primary/50 transition-colors">
-                      {node.logoUrl ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img src={node.logoUrl} alt="" className="w-5 h-5 rounded-sm object-contain" />
-                      ) : (
-                        <Network className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
-                      )}
-                    </div>
+                    <NodeLogo 
+                      logoUrl={node.logoUrl} 
+                      websiteUrl={node.websiteUrl}
+                      containerClassName="w-8 h-8 rounded-lg border border-border/40 shadow-sm group-hover:border-primary/50 transition-colors"
+                      fallbackIconClassName="w-4 h-4 group-hover:text-primary transition-colors"
+                      className="rounded-sm p-1"
+                    />
                     <div className="flex flex-col flex-1">
                       <span className="font-medium text-sm group-hover:text-primary transition-colors">{node.name}</span>
                       <span className="text-xs text-muted-foreground line-clamp-1">{node.description}</span>

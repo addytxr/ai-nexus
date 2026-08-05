@@ -1,7 +1,7 @@
 'use client';
 import { useQuery } from '@tanstack/react-query';
 import { useGraph } from '@/lib/store/graph-context';
-import { Network } from 'lucide-react';
+import { NodeLogo } from '@/components/ui/node-logo';
 
 export function SimilarTools({ nodeId }: { nodeId: string }) {
   const { data, isLoading } = useQuery({
@@ -25,14 +25,13 @@ export function SimilarTools({ nodeId }: { nodeId: string }) {
             onClick={() => setSelectedNodeId(tool.id)}
             className="flex items-center gap-3 p-2 rounded-lg border bg-card hover:bg-accent transition-colors cursor-pointer group"
           >
-            <div className="w-8 h-8 rounded-md bg-muted flex items-center justify-center shrink-0 border border-border/50">
-              {tool.logoUrl ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={tool.logoUrl} alt="" className="w-5 h-5 rounded-sm object-contain" />
-              ) : (
-                <Network className="w-4 h-4 text-muted-foreground" />
-              )}
-            </div>
+            <NodeLogo 
+              logoUrl={tool.logoUrl} 
+              websiteUrl={tool.websiteUrl}
+              containerClassName="w-8 h-8 rounded-md border border-border/50 shrink-0"
+              fallbackIconClassName="w-4 h-4"
+              className="rounded-sm p-1"
+            />
             <div className="flex flex-col flex-1">
               <span className="font-medium text-sm group-hover:text-primary transition-colors">{tool.name}</span>
               <span className="text-xs text-muted-foreground">{tool.score} shared connections</span>

@@ -7,6 +7,7 @@ import { Separator } from '@/components/ui/separator';
 import { ExternalLink, ArrowRight, ArrowLeft, Network, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SimilarTools } from './similar-tools';
+import { NodeLogo } from '@/components/ui/node-logo';
 
 export function NodeDrawer() {
   const { selectedNodeId, setSelectedNodeId, drawerOpen, setDrawerOpen } = useGraph();
@@ -44,18 +45,14 @@ export function NodeDrawer() {
             </div>
           ) : node ? (
             <div className="space-y-6 mt-2">
-              <div className="text-left space-y-6">
+                <div className="text-left space-y-6">
                   <div className="flex items-center gap-4">
-                    {node.logoUrl ? (
-                      <div className="w-14 h-14 rounded-xl border border-border/40 flex items-center justify-center p-2.5 bg-background shadow-sm shrink-0">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={node.logoUrl} alt="" className="w-full h-full object-contain" />
-                      </div>
-                    ) : (
-                      <div className="w-14 h-14 rounded-xl border border-border/40 flex items-center justify-center bg-background shadow-sm shrink-0">
-                        <Network className="w-6 h-6 text-muted-foreground/50" />
-                      </div>
-                    )}
+                    <NodeLogo 
+                      logoUrl={node.logoUrl} 
+                      websiteUrl={node.websiteUrl} 
+                      containerClassName="w-14 h-14 rounded-xl border border-border/40 p-2.5 shadow-sm"
+                      fallbackIconClassName="w-6 h-6"
+                    />
                     <div className="flex flex-col justify-center">
                       <span className="text-[10px] uppercase font-bold tracking-widest text-muted-foreground/70 mb-1.5">{node.label}</span>
                       <h2 className="text-2xl font-semibold tracking-tight leading-none">{node.name}</h2>
