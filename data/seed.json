@@ -1,0 +1,4512 @@
+{
+  "nodes": [
+    {
+      "id": "d0670952-32e2-4169-863e-66a2d785861a",
+      "label": "Company",
+      "name": "OpenAI",
+      "description": "OpenAI is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://openai.com"
+    },
+    {
+      "id": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "label": "Company",
+      "name": "Anthropic",
+      "description": "Anthropic is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://anthropic.com"
+    },
+    {
+      "id": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "label": "Company",
+      "name": "Google",
+      "description": "Google is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://google.com"
+    },
+    {
+      "id": "8c37839c-6d25-4b81-a316-f8212c6dbbbe",
+      "label": "Company",
+      "name": "Meta",
+      "description": "Meta is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://meta.com"
+    },
+    {
+      "id": "d0c4d815-1ab5-4508-8de8-abbe9b31a247",
+      "label": "Company",
+      "name": "Microsoft",
+      "description": "Microsoft is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://microsoft.com"
+    },
+    {
+      "id": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "label": "Company",
+      "name": "Mistral",
+      "description": "Mistral is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://mistral.com"
+    },
+    {
+      "id": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "label": "Company",
+      "name": "Cohere",
+      "description": "Cohere is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://cohere.com"
+    },
+    {
+      "id": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "label": "Company",
+      "name": "Hugging Face",
+      "description": "Hugging Face is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://huggingface.com"
+    },
+    {
+      "id": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "label": "Company",
+      "name": "Vercel",
+      "description": "Vercel is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://vercel.com"
+    },
+    {
+      "id": "62ee7598-266f-494b-aa50-aa905d90d8fc",
+      "label": "Company",
+      "name": "Supabase",
+      "description": "Supabase is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://supabase.com"
+    },
+    {
+      "id": "c39ff9dd-4925-43c2-ad4c-e73607cfb3ae",
+      "label": "Company",
+      "name": "Pinecone",
+      "description": "Pinecone is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://pinecone.com"
+    },
+    {
+      "id": "2c86b559-8f41-426f-bafb-86fbfd7229f4",
+      "label": "Company",
+      "name": "Qdrant",
+      "description": "Qdrant is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://qdrant.com"
+    },
+    {
+      "id": "2394388a-2607-41f0-868d-79147dd99030",
+      "label": "Company",
+      "name": "Weaviate",
+      "description": "Weaviate is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://weaviate.com"
+    },
+    {
+      "id": "20d0bebf-638e-46e7-a466-9c55e7dbb804",
+      "label": "Company",
+      "name": "Linear",
+      "description": "Linear is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://linear.com"
+    },
+    {
+      "id": "d9d6ae05-a20f-44e1-98d8-b91e80181a4f",
+      "label": "Company",
+      "name": "Slack",
+      "description": "Slack is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://slack.com"
+    },
+    {
+      "id": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "label": "Company",
+      "name": "GitHub",
+      "description": "GitHub is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://github.com"
+    },
+    {
+      "id": "59a9fd47-f13f-4415-8ded-07499c3d8cfe",
+      "label": "Company",
+      "name": "Notion",
+      "description": "Notion is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://notion.com"
+    },
+    {
+      "id": "d76a3cfa-aa18-4832-937c-6a7f88c888f3",
+      "label": "Company",
+      "name": "Figma",
+      "description": "Figma is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://figma.com"
+    },
+    {
+      "id": "e4b18e41-2972-438b-8ac6-7d318915ce6d",
+      "label": "Company",
+      "name": "Stripe",
+      "description": "Stripe is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://stripe.com"
+    },
+    {
+      "id": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "label": "Company",
+      "name": "Datadog",
+      "description": "Datadog is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://datadog.com"
+    },
+    {
+      "id": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "label": "Company",
+      "name": "Docker",
+      "description": "Docker is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://docker.com"
+    },
+    {
+      "id": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "label": "Company",
+      "name": "Atlassian",
+      "description": "Atlassian is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://atlassian.com"
+    },
+    {
+      "id": "11cb3837-9017-4ada-b300-c9967e28b02e",
+      "label": "Company",
+      "name": "Elastic",
+      "description": "Elastic is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://elastic.com"
+    },
+    {
+      "id": "08a4bd13-591f-454e-b064-8cd740d27614",
+      "label": "Company",
+      "name": "Redis",
+      "description": "Redis is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://redis.com"
+    },
+    {
+      "id": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "label": "Company",
+      "name": "MongoDB",
+      "description": "MongoDB is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://mongodb.com"
+    },
+    {
+      "id": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "label": "Company",
+      "name": "NVIDIA",
+      "description": "NVIDIA is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://nvidia.com"
+    },
+    {
+      "id": "f970575e-8ef4-4ad7-bca1-3e5150cd47eb",
+      "label": "Company",
+      "name": "AMD",
+      "description": "AMD is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://amd.com"
+    },
+    {
+      "id": "c58effd1-ce09-4c9d-b12c-5fb1af173052",
+      "label": "Company",
+      "name": "Perplexity",
+      "description": "Perplexity is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://perplexity.com"
+    },
+    {
+      "id": "14edd779-1987-4d4d-b664-14442abe4c84",
+      "label": "Company",
+      "name": "Cloudflare",
+      "description": "Cloudflare is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://cloudflare.com"
+    },
+    {
+      "id": "a75bcac1-99f1-461e-9699-3fe1e27407c3",
+      "label": "Company",
+      "name": "Lovable",
+      "description": "Lovable is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://lovable.com"
+    },
+    {
+      "id": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "label": "Company",
+      "name": "StackBlitz",
+      "description": "StackBlitz is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://stackblitz.com"
+    },
+    {
+      "id": "59821f1f-f084-4cb0-b327-80733348f8c5",
+      "label": "Company",
+      "name": "Codeium",
+      "description": "Codeium is a leading Company in the tech ecosystem.",
+      "icon": "building-2",
+      "color": "#3b82f6",
+      "website": "https://codeium.com"
+    },
+    {
+      "id": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "label": "Provider",
+      "name": "AWS Bedrock",
+      "description": "AWS Bedrock is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://awsbedrock.com"
+    },
+    {
+      "id": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "label": "Provider",
+      "name": "Azure AI",
+      "description": "Azure AI is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://azureai.com"
+    },
+    {
+      "id": "a0b35e52-dfb6-45e6-9044-eafe095927fb",
+      "label": "Provider",
+      "name": "Google Cloud Vertex AI",
+      "description": "Google Cloud Vertex AI is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://googlecloudvertexai.com"
+    },
+    {
+      "id": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "label": "Provider",
+      "name": "Cloudflare AI",
+      "description": "Cloudflare AI is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://cloudflareai.com"
+    },
+    {
+      "id": "7994d8ed-635d-4463-bf1a-ccc1f44e91ab",
+      "label": "Provider",
+      "name": "Together AI",
+      "description": "Together AI is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://togetherai.com"
+    },
+    {
+      "id": "5950ec60-7a91-463e-99d8-53a9ea533c2e",
+      "label": "Provider",
+      "name": "Replicate",
+      "description": "Replicate is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://replicate.com"
+    },
+    {
+      "id": "b2d47a01-4b06-49b0-bf32-2ff8c938a77c",
+      "label": "Provider",
+      "name": "Groq",
+      "description": "Groq is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://groq.com"
+    },
+    {
+      "id": "a0cc6ee9-4a78-42a0-a5c3-d149f2d9757e",
+      "label": "Provider",
+      "name": "Fireworks AI",
+      "description": "Fireworks AI is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://fireworksai.com"
+    },
+    {
+      "id": "ee65a024-8678-4bb2-878f-6f67db8274da",
+      "label": "Provider",
+      "name": "Perplexity API",
+      "description": "Perplexity API is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://perplexityapi.com"
+    },
+    {
+      "id": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "label": "Provider",
+      "name": "Baseten",
+      "description": "Baseten is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://baseten.com"
+    },
+    {
+      "id": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "label": "Provider",
+      "name": "Modal",
+      "description": "Modal is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://modal.com"
+    },
+    {
+      "id": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "label": "Provider",
+      "name": "Runpod",
+      "description": "Runpod is a leading Provider in the tech ecosystem.",
+      "icon": "cloud",
+      "color": "#f59e0b",
+      "website": "https://runpod.com"
+    },
+    {
+      "id": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "label": "Model",
+      "name": "GPT-4o",
+      "description": "GPT-4o is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://gpt-4o.com"
+    },
+    {
+      "id": "b9b6a356-aac3-4431-99ae-d5e9aebead14",
+      "label": "Model",
+      "name": "GPT-4 Turbo",
+      "description": "GPT-4 Turbo is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://gpt-4turbo.com"
+    },
+    {
+      "id": "a72c8679-387f-4764-a23e-14cb046aac19",
+      "label": "Model",
+      "name": "GPT-3.5",
+      "description": "GPT-3.5 is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://gpt-3.5.com"
+    },
+    {
+      "id": "31d60832-67b6-4be9-9355-7f908f465377",
+      "label": "Model",
+      "name": "Claude 3.5 Sonnet",
+      "description": "Claude 3.5 Sonnet is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://claude3.5sonnet.com"
+    },
+    {
+      "id": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "label": "Model",
+      "name": "Claude 3 Opus",
+      "description": "Claude 3 Opus is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://claude3opus.com"
+    },
+    {
+      "id": "b6ecdafb-f6c1-4227-9fa9-6ea95bc3d2eb",
+      "label": "Model",
+      "name": "Claude 3 Haiku",
+      "description": "Claude 3 Haiku is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://claude3haiku.com"
+    },
+    {
+      "id": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "label": "Model",
+      "name": "Gemini 1.5 Pro",
+      "description": "Gemini 1.5 Pro is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://gemini1.5pro.com"
+    },
+    {
+      "id": "da85b05c-b134-4a37-8c5f-3e72e11c6a2b",
+      "label": "Model",
+      "name": "Gemini 1.5 Flash",
+      "description": "Gemini 1.5 Flash is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://gemini1.5flash.com"
+    },
+    {
+      "id": "dcd0af7e-9b0f-4443-a303-a23ba3a249d9",
+      "label": "Model",
+      "name": "Llama 3 70B",
+      "description": "Llama 3 70B is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://llama370b.com"
+    },
+    {
+      "id": "43f458ab-1dcb-4ec0-9d62-5a3e34d527cf",
+      "label": "Model",
+      "name": "Llama 3 8B",
+      "description": "Llama 3 8B is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://llama38b.com"
+    },
+    {
+      "id": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "label": "Model",
+      "name": "Mistral Large",
+      "description": "Mistral Large is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://mistrallarge.com"
+    },
+    {
+      "id": "8e3988a3-66c2-47c0-b791-132f606c88c9",
+      "label": "Model",
+      "name": "Mixtral 8x7B",
+      "description": "Mixtral 8x7B is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://mixtral8x7b.com"
+    },
+    {
+      "id": "7d1a0f39-4791-4be4-8882-ec692a14b6d3",
+      "label": "Model",
+      "name": "Command R+",
+      "description": "Command R+ is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://commandr+.com"
+    },
+    {
+      "id": "d608e18d-35bb-4a04-9350-00342ef23a8f",
+      "label": "Model",
+      "name": "Stable Diffusion 3",
+      "description": "Stable Diffusion 3 is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://stablediffusion3.com"
+    },
+    {
+      "id": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "label": "Model",
+      "name": "Midjourney V6",
+      "description": "Midjourney V6 is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://midjourneyv6.com"
+    },
+    {
+      "id": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "label": "Model",
+      "name": "DALL-E 3",
+      "description": "DALL-E 3 is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://dall-e3.com"
+    },
+    {
+      "id": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "label": "Model",
+      "name": "Whisper",
+      "description": "Whisper is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://whisper.com"
+    },
+    {
+      "id": "6e320e9c-5e20-4b80-ab11-22e73e0b8075",
+      "label": "Model",
+      "name": "TTS-1",
+      "description": "TTS-1 is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://tts-1.com"
+    },
+    {
+      "id": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "label": "Model",
+      "name": "Phind-34B",
+      "description": "Phind-34B is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://phind-34b.com"
+    },
+    {
+      "id": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "label": "Model",
+      "name": "Gemma 7B",
+      "description": "Gemma 7B is a leading Model in the tech ecosystem.",
+      "icon": "brain",
+      "color": "#10b981",
+      "website": "https://gemma7b.com"
+    },
+    {
+      "id": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "label": "Tool",
+      "name": "Cursor",
+      "description": "Cursor is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://cursor.com"
+    },
+    {
+      "id": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "label": "Tool",
+      "name": "Windsurf",
+      "description": "Windsurf is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://windsurf.com"
+    },
+    {
+      "id": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "label": "Tool",
+      "name": "Continue",
+      "description": "Continue is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://continue.com"
+    },
+    {
+      "id": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "label": "Tool",
+      "name": "Cline",
+      "description": "Cline is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://cline.com"
+    },
+    {
+      "id": "a77beddd-da99-4e23-9db8-da3171376e52",
+      "label": "Tool",
+      "name": "ChatGPT",
+      "description": "ChatGPT is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://chatgpt.com"
+    },
+    {
+      "id": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "label": "Tool",
+      "name": "Claude",
+      "description": "Claude is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://claude.com"
+    },
+    {
+      "id": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "label": "Tool",
+      "name": "Gemini",
+      "description": "Gemini is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://gemini.com"
+    },
+    {
+      "id": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "label": "Tool",
+      "name": "Perplexity",
+      "description": "Perplexity is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://perplexity.com"
+    },
+    {
+      "id": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "label": "Tool",
+      "name": "Bolt.new",
+      "description": "Bolt.new is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://bolt.new.com"
+    },
+    {
+      "id": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "label": "Tool",
+      "name": "v0",
+      "description": "v0 is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://v0.com"
+    },
+    {
+      "id": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "label": "Tool",
+      "name": "Lovable",
+      "description": "Lovable is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://lovable.com"
+    },
+    {
+      "id": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "label": "Tool",
+      "name": "GitHub Copilot",
+      "description": "GitHub Copilot is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://githubcopilot.com"
+    },
+    {
+      "id": "974ebde8-3240-4f17-807d-6560b1dde23b",
+      "label": "Tool",
+      "name": "Midjourney",
+      "description": "Midjourney is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://midjourney.com"
+    },
+    {
+      "id": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "label": "Tool",
+      "name": "Notion AI",
+      "description": "Notion AI is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://notionai.com"
+    },
+    {
+      "id": "6b9c31c3-0082-4bbe-b38a-f1de0504c986",
+      "label": "Tool",
+      "name": "Figma AI",
+      "description": "Figma AI is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://figmaai.com"
+    },
+    {
+      "id": "27579379-2e44-4a50-86e5-6f4c70743064",
+      "label": "Tool",
+      "name": "Linear Asks",
+      "description": "Linear Asks is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://linearasks.com"
+    },
+    {
+      "id": "d2978801-fa80-438e-88fb-ba888e97441f",
+      "label": "Tool",
+      "name": "Warp",
+      "description": "Warp is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://warp.com"
+    },
+    {
+      "id": "13ec2600-d893-439b-a4a8-ffbdd38d72c4",
+      "label": "Tool",
+      "name": "Raycast",
+      "description": "Raycast is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://raycast.com"
+    },
+    {
+      "id": "72bfb90a-6416-4a3f-b7a8-bbd338c98834",
+      "label": "Tool",
+      "name": "Arc Browser",
+      "description": "Arc Browser is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://arcbrowser.com"
+    },
+    {
+      "id": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "label": "Tool",
+      "name": "Devin",
+      "description": "Devin is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://devin.com"
+    },
+    {
+      "id": "750918f9-eaaa-455c-93aa-2ede78086a25",
+      "label": "Tool",
+      "name": "Superhuman",
+      "description": "Superhuman is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://superhuman.com"
+    },
+    {
+      "id": "62d2ffc7-0d48-460f-80bd-39b708d9b150",
+      "label": "Tool",
+      "name": "Glean",
+      "description": "Glean is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://glean.com"
+    },
+    {
+      "id": "42b5b6bd-5530-463d-a4f9-22b8f3c99832",
+      "label": "Tool",
+      "name": "Mem",
+      "description": "Mem is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://mem.com"
+    },
+    {
+      "id": "78724195-33e8-4b8f-81bc-f4b6f3f67216",
+      "label": "Tool",
+      "name": "Rewind",
+      "description": "Rewind is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://rewind.com"
+    },
+    {
+      "id": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "label": "Tool",
+      "name": "VS Code",
+      "description": "VS Code is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://vscode.com"
+    },
+    {
+      "id": "6a37f4d4-6658-4399-986e-1406e822f750",
+      "label": "Tool",
+      "name": "WebStorm",
+      "description": "WebStorm is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://webstorm.com"
+    },
+    {
+      "id": "8e1d9297-e71a-4bff-b5ea-826f4c0d1446",
+      "label": "Tool",
+      "name": "IntelliJ IDEA",
+      "description": "IntelliJ IDEA is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://intellijidea.com"
+    },
+    {
+      "id": "a16b450b-80da-4cad-9e02-a53b258b1093",
+      "label": "Tool",
+      "name": "PyCharm",
+      "description": "PyCharm is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://pycharm.com"
+    },
+    {
+      "id": "b42f33cf-51a0-4432-ab89-c9ba01193b1c",
+      "label": "Tool",
+      "name": "Zed",
+      "description": "Zed is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://zed.com"
+    },
+    {
+      "id": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "label": "Tool",
+      "name": "Neovim",
+      "description": "Neovim is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://neovim.com"
+    },
+    {
+      "id": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "label": "Tool",
+      "name": "Fleet",
+      "description": "Fleet is a leading Tool in the tech ecosystem.",
+      "icon": "hammer",
+      "color": "#ec4899",
+      "website": "https://fleet.com"
+    },
+    {
+      "id": "95a1f371-1181-44a5-8de9-caa69023a1c5",
+      "label": "API",
+      "name": "OpenAI API",
+      "description": "OpenAI API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://openaiapi.com"
+    },
+    {
+      "id": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "label": "API",
+      "name": "Anthropic API",
+      "description": "Anthropic API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://anthropicapi.com"
+    },
+    {
+      "id": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "label": "API",
+      "name": "Gemini API",
+      "description": "Gemini API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://geminiapi.com"
+    },
+    {
+      "id": "0b4dbdd1-1de4-4964-a338-d11e1b502b76",
+      "label": "API",
+      "name": "Cohere API",
+      "description": "Cohere API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://cohereapi.com"
+    },
+    {
+      "id": "6768b699-ae99-41a4-a906-901f6f724afe",
+      "label": "API",
+      "name": "Hugging Face Inference API",
+      "description": "Hugging Face Inference API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://huggingfaceinferenceapi.com"
+    },
+    {
+      "id": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "label": "API",
+      "name": "Stripe API",
+      "description": "Stripe API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://stripeapi.com"
+    },
+    {
+      "id": "68983ce9-f89e-492a-abc4-5ac75611d85e",
+      "label": "API",
+      "name": "Slack API",
+      "description": "Slack API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://slackapi.com"
+    },
+    {
+      "id": "6ea3064f-0ec4-431b-9280-8d61f6e1474d",
+      "label": "API",
+      "name": "GitHub API",
+      "description": "GitHub API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://githubapi.com"
+    },
+    {
+      "id": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "label": "API",
+      "name": "Notion API",
+      "description": "Notion API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://notionapi.com"
+    },
+    {
+      "id": "ecc115fe-b054-4936-95dc-17e7f2de1fee",
+      "label": "API",
+      "name": "Linear API",
+      "description": "Linear API is a leading API in the tech ecosystem.",
+      "icon": "code",
+      "color": "#8b5cf6",
+      "website": "https://linearapi.com"
+    },
+    {
+      "id": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "label": "Protocol",
+      "name": "MCP (Model Context Protocol)",
+      "description": "MCP (Model Context Protocol) is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://mcpmodelcontextprotocol.com"
+    },
+    {
+      "id": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "label": "Protocol",
+      "name": "OAuth2",
+      "description": "OAuth2 is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://oauth2.com"
+    },
+    {
+      "id": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "label": "Protocol",
+      "name": "GraphQL",
+      "description": "GraphQL is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://graphql.com"
+    },
+    {
+      "id": "bb1335cc-077a-44ad-b5ba-188538a723e2",
+      "label": "Protocol",
+      "name": "REST",
+      "description": "REST is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://rest.com"
+    },
+    {
+      "id": "8823b4fc-afd8-4274-8e90-da390e583732",
+      "label": "Protocol",
+      "name": "gRPC",
+      "description": "gRPC is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://grpc.com"
+    },
+    {
+      "id": "134a6d7c-e6e3-4953-9701-25ff5328f7fa",
+      "label": "Protocol",
+      "name": "WebSocket",
+      "description": "WebSocket is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://websocket.com"
+    },
+    {
+      "id": "febe7e31-1c6f-4837-b819-e86b8488cee1",
+      "label": "Protocol",
+      "name": "WebRTC",
+      "description": "WebRTC is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://webrtc.com"
+    },
+    {
+      "id": "37310e9d-dae3-4417-8bd4-76a5b784a4d8",
+      "label": "Protocol",
+      "name": "ActivityPub",
+      "description": "ActivityPub is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://activitypub.com"
+    },
+    {
+      "id": "82f1721a-6148-4a90-9842-5e32e5a8a24e",
+      "label": "Protocol",
+      "name": "OpenID Connect",
+      "description": "OpenID Connect is a leading Protocol in the tech ecosystem.",
+      "icon": "network",
+      "color": "#6366f1",
+      "website": "https://openidconnect.com"
+    },
+    {
+      "id": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "label": "Integration",
+      "name": "Slack Integration",
+      "description": "Slack Integration is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://slackintegration.com"
+    },
+    {
+      "id": "32c2c008-9a4e-49a2-9a2e-9f9cdde09d4f",
+      "label": "Integration",
+      "name": "GitHub Actions",
+      "description": "GitHub Actions is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://githubactions.com"
+    },
+    {
+      "id": "be6eb97b-dfe6-4a6f-b5a5-3a31b0722ba0",
+      "label": "Integration",
+      "name": "Zapier",
+      "description": "Zapier is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://zapier.com"
+    },
+    {
+      "id": "e543e45a-6656-428e-a4f3-dcd1b42a6fa4",
+      "label": "Integration",
+      "name": "Make",
+      "description": "Make is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://make.com"
+    },
+    {
+      "id": "bc329a70-b6c6-4b51-a529-55ce13c75995",
+      "label": "Integration",
+      "name": "Vercel Integrations",
+      "description": "Vercel Integrations is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://vercelintegrations.com"
+    },
+    {
+      "id": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "label": "Integration",
+      "name": "Stripe Webhooks",
+      "description": "Stripe Webhooks is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://stripewebhooks.com"
+    },
+    {
+      "id": "79be377f-b7e4-4a66-a87d-d413c27290ec",
+      "label": "Integration",
+      "name": "Linear GitHub Sync",
+      "description": "Linear GitHub Sync is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://lineargithubsync.com"
+    },
+    {
+      "id": "d5f430b4-9f10-4fda-b1d8-b127a8e6fd37",
+      "label": "Integration",
+      "name": "Notion Slack Bot",
+      "description": "Notion Slack Bot is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://notionslackbot.com"
+    },
+    {
+      "id": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "label": "Integration",
+      "name": "Discord Webhooks",
+      "description": "Discord Webhooks is a leading Integration in the tech ecosystem.",
+      "icon": "plug",
+      "color": "#14b8a6",
+      "website": "https://discordwebhooks.com"
+    },
+    {
+      "id": "5528b810-4d25-45fe-88b7-1e6186fc9c2b",
+      "label": "Framework",
+      "name": "LangChain",
+      "description": "LangChain is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://langchain.com"
+    },
+    {
+      "id": "c7ae54cd-8013-4b8c-94e8-ac2cb27688f5",
+      "label": "Framework",
+      "name": "LlamaIndex",
+      "description": "LlamaIndex is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://llamaindex.com"
+    },
+    {
+      "id": "2d070954-7b21-4c7c-afea-5a69dcef93d7",
+      "label": "Framework",
+      "name": "Next.js",
+      "description": "Next.js is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://next.js.com"
+    },
+    {
+      "id": "a47e527f-09bb-453e-a9a7-bc5b26444345",
+      "label": "Framework",
+      "name": "React",
+      "description": "React is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://react.com"
+    },
+    {
+      "id": "180222a9-b1c3-4c8e-8a35-d226d8d8d12b",
+      "label": "Framework",
+      "name": "Tailwind CSS",
+      "description": "Tailwind CSS is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://tailwindcss.com"
+    },
+    {
+      "id": "4295eea3-8a98-45f1-9ecb-868c6b1a6fa9",
+      "label": "Framework",
+      "name": "PyTorch",
+      "description": "PyTorch is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://pytorch.com"
+    },
+    {
+      "id": "dd7c0bf2-437f-4133-85a1-8b99873540e3",
+      "label": "Framework",
+      "name": "TensorFlow",
+      "description": "TensorFlow is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://tensorflow.com"
+    },
+    {
+      "id": "f706d323-99e8-44db-ab80-06cc8aab9228",
+      "label": "Framework",
+      "name": "Hugging Face Transformers",
+      "description": "Hugging Face Transformers is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://huggingfacetransformers.com"
+    },
+    {
+      "id": "3946b287-faaa-4975-97ba-9a52bf65aae8",
+      "label": "Framework",
+      "name": "Vue",
+      "description": "Vue is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://vue.com"
+    },
+    {
+      "id": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "label": "Framework",
+      "name": "Svelte",
+      "description": "Svelte is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://svelte.com"
+    },
+    {
+      "id": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "label": "Framework",
+      "name": "Express",
+      "description": "Express is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://express.com"
+    },
+    {
+      "id": "0bf229ae-efd3-4de7-9748-d160f27e4fab",
+      "label": "Framework",
+      "name": "FastAPI",
+      "description": "FastAPI is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://fastapi.com"
+    },
+    {
+      "id": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "label": "Framework",
+      "name": "Django",
+      "description": "Django is a leading Framework in the tech ecosystem.",
+      "icon": "layers",
+      "color": "#f43f5e",
+      "website": "https://django.com"
+    },
+    {
+      "id": "78a39c85-7532-4c6e-a89a-03f05f8f85d3",
+      "label": "VectorDB",
+      "name": "Pinecone",
+      "description": "Pinecone is a leading VectorDB in the tech ecosystem.",
+      "icon": "database",
+      "color": "#06b6d4",
+      "website": "https://pinecone.com"
+    },
+    {
+      "id": "4f98737b-1ccf-4a20-a46d-bffe630056ce",
+      "label": "VectorDB",
+      "name": "Qdrant",
+      "description": "Qdrant is a leading VectorDB in the tech ecosystem.",
+      "icon": "database",
+      "color": "#06b6d4",
+      "website": "https://qdrant.com"
+    },
+    {
+      "id": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "label": "VectorDB",
+      "name": "Weaviate",
+      "description": "Weaviate is a leading VectorDB in the tech ecosystem.",
+      "icon": "database",
+      "color": "#06b6d4",
+      "website": "https://weaviate.com"
+    },
+    {
+      "id": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "label": "VectorDB",
+      "name": "Chroma",
+      "description": "Chroma is a leading VectorDB in the tech ecosystem.",
+      "icon": "database",
+      "color": "#06b6d4",
+      "website": "https://chroma.com"
+    },
+    {
+      "id": "8de1dabc-c360-448e-a870-0aba94bf1d0c",
+      "label": "VectorDB",
+      "name": "Milvus",
+      "description": "Milvus is a leading VectorDB in the tech ecosystem.",
+      "icon": "database",
+      "color": "#06b6d4",
+      "website": "https://milvus.com"
+    },
+    {
+      "id": "83a42850-c60d-46be-b181-746a0c4c01fb",
+      "label": "VectorDB",
+      "name": "pgvector",
+      "description": "pgvector is a leading VectorDB in the tech ecosystem.",
+      "icon": "database",
+      "color": "#06b6d4",
+      "website": "https://pgvector.com"
+    },
+    {
+      "id": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "label": "VectorDB",
+      "name": "RedisVL",
+      "description": "RedisVL is a leading VectorDB in the tech ecosystem.",
+      "icon": "database",
+      "color": "#06b6d4",
+      "website": "https://redisvl.com"
+    },
+    {
+      "id": "2c9ba68f-e7e9-4725-b33d-e1588c278a6a",
+      "label": "VectorDB",
+      "name": "Elasticsearch",
+      "description": "Elasticsearch is a leading VectorDB in the tech ecosystem.",
+      "icon": "database",
+      "color": "#06b6d4",
+      "website": "https://elasticsearch.com"
+    },
+    {
+      "id": "2fd283d3-d0ed-4138-8851-2dc66e9c77bd",
+      "label": "Category",
+      "name": "LLM",
+      "description": "LLM is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://llm.com"
+    },
+    {
+      "id": "a7619702-1757-4484-8863-0fe164b85166",
+      "label": "Category",
+      "name": "Code Assistant",
+      "description": "Code Assistant is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://codeassistant.com"
+    },
+    {
+      "id": "cceecda6-1ae0-478e-8b6d-9864207d3f37",
+      "label": "Category",
+      "name": "Image Generation",
+      "description": "Image Generation is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://imagegeneration.com"
+    },
+    {
+      "id": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "label": "Category",
+      "name": "Voice/Audio",
+      "description": "Voice/Audio is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://voice/audio.com"
+    },
+    {
+      "id": "de4aa26c-2737-4c60-9c49-0b8c98adda42",
+      "label": "Category",
+      "name": "Agent",
+      "description": "Agent is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://agent.com"
+    },
+    {
+      "id": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "label": "Category",
+      "name": "Productivity",
+      "description": "Productivity is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://productivity.com"
+    },
+    {
+      "id": "e0f486ae-9ce8-4eb6-a034-1a10bdcddad2",
+      "label": "Category",
+      "name": "Cloud Infrastructure",
+      "description": "Cloud Infrastructure is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://cloudinfrastructure.com"
+    },
+    {
+      "id": "d919559b-44cb-44e8-9586-285e54df5356",
+      "label": "Category",
+      "name": "Developer Tools",
+      "description": "Developer Tools is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://developertools.com"
+    },
+    {
+      "id": "543faca7-a64f-4ac6-beff-9244fcefdaea",
+      "label": "Category",
+      "name": "Design",
+      "description": "Design is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://design.com"
+    },
+    {
+      "id": "16bae620-0150-4a91-b419-e7a9bb303378",
+      "label": "Category",
+      "name": "Database",
+      "description": "Database is a leading Category in the tech ecosystem.",
+      "icon": "tag",
+      "color": "#64748b",
+      "website": "https://database.com"
+    }
+  ],
+  "edges": [
+    {
+      "source": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "target": "d0670952-32e2-4169-863e-66a2d785861a",
+      "type": "CREATED_BY",
+      "reason": "GPT-4o was created by OpenAI."
+    },
+    {
+      "source": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "target": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "type": "CREATED_BY",
+      "reason": "Claude was created by Anthropic."
+    },
+    {
+      "source": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "target": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "type": "CREATED_BY",
+      "reason": "Gemini 1.5 Pro was created by Google."
+    },
+    {
+      "source": "dcd0af7e-9b0f-4443-a303-a23ba3a249d9",
+      "target": "8c37839c-6d25-4b81-a316-f8212c6dbbbe",
+      "type": "CREATED_BY",
+      "reason": "Llama 3 70B was created by Meta."
+    },
+    {
+      "source": "2d070954-7b21-4c7c-afea-5a69dcef93d7",
+      "target": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "type": "CREATED_BY",
+      "reason": "Next.js was created and is maintained by Vercel."
+    },
+    {
+      "source": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "target": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "type": "CREATED_BY",
+      "reason": "v0 is an AI product created by Vercel."
+    },
+    {
+      "source": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "target": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "type": "CREATED_BY",
+      "reason": "Bolt.new was created by StackBlitz."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "59821f1f-f084-4cb0-b327-80733348f8c5",
+      "type": "CREATED_BY",
+      "reason": "Windsurf was created by Codeium."
+    },
+    {
+      "source": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "target": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "type": "CREATED_BY",
+      "reason": "GitHub Copilot was created by GitHub in partnership with OpenAI."
+    },
+    {
+      "source": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "HOSTS",
+      "reason": "AWS Bedrock hosts enterprise access to Claude 3.5 Sonnet."
+    },
+    {
+      "source": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "HOSTS",
+      "reason": "Azure AI hosts enterprise access to GPT-4o."
+    },
+    {
+      "source": "a0b35e52-dfb6-45e6-9044-eafe095927fb",
+      "target": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "type": "HOSTS",
+      "reason": "Vertex AI hosts Gemini 1.5 Pro."
+    },
+    {
+      "source": "b2d47a01-4b06-49b0-bf32-2ff8c938a77c",
+      "target": "43f458ab-1dcb-4ec0-9d62-5a3e34d527cf",
+      "type": "HOSTS",
+      "reason": "Groq hosts ultra-fast LPU inference for Llama 3 8B."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "Cursor uses Claude 3.5 Sonnet as its default and most capable code generation model."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "USES",
+      "reason": "Cursor offers GPT-4o as an alternative fast model."
+    },
+    {
+      "source": "a77beddd-da99-4e23-9db8-da3171376e52",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "USES",
+      "reason": "ChatGPT is powered by GPT-4o."
+    },
+    {
+      "source": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "Claude is powered by Claude 3.5 Sonnet."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "USES",
+      "reason": "Windsurf utilizes models like GPT-4o."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "Windsurf utilizes Claude 3.5 Sonnet for code logic."
+    },
+    {
+      "source": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "Continue works great with Claude 3.5 Sonnet via API."
+    },
+    {
+      "source": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "Cline strongly recommends Claude 3.5 Sonnet."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "USES",
+      "reason": "Perplexity uses GPT-4o for complex reasoning tasks."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "Perplexity offers Claude 3.5 Sonnet to Pro users."
+    },
+    {
+      "source": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "v0 uses Claude 3.5 Sonnet to accurately generate React UIs."
+    },
+    {
+      "source": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "Lovable uses Claude 3.5 Sonnet to build full-stack web applications."
+    },
+    {
+      "source": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "target": "31d60832-67b6-4be9-9355-7f908f465377",
+      "type": "USES",
+      "reason": "Bolt.new uses Claude 3.5 Sonnet to create WebContainers apps."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "type": "USES",
+      "reason": "Cursor is deeply integrated with and forked from VS Code."
+    },
+    {
+      "source": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "target": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "type": "SUPPORTED_BY",
+      "reason": "MCP was introduced by Anthropic to standardize tool use."
+    },
+    {
+      "source": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "target": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "type": "SUPPORTED_BY",
+      "reason": "Cursor supports MCP for bringing external context into the IDE."
+    },
+    {
+      "source": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "target": "d9d6ae05-a20f-44e1-98d8-b91e80181a4f",
+      "type": "INTEGRATES_WITH",
+      "reason": "Directly integrates with Slack workspaces."
+    },
+    {
+      "source": "32c2c008-9a4e-49a2-9a2e-9f9cdde09d4f",
+      "target": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "type": "INTEGRATES_WITH",
+      "reason": "Natively integrated with GitHub repositories."
+    },
+    {
+      "source": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "target": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "type": "INTEGRATES_WITH",
+      "reason": "Vercel integrates with GitHub for automatic CI/CD deployments."
+    },
+    {
+      "source": "20d0bebf-638e-46e7-a466-9c55e7dbb804",
+      "target": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "type": "INTEGRATES_WITH",
+      "reason": "Linear integrates with GitHub to automatically sync pull requests with issues."
+    },
+    {
+      "source": "5528b810-4d25-45fe-88b7-1e6186fc9c2b",
+      "target": "95a1f371-1181-44a5-8de9-caa69023a1c5",
+      "type": "DEPENDS_ON",
+      "reason": "LangChain relies on the OpenAI API for its default examples and workflows."
+    },
+    {
+      "source": "2d070954-7b21-4c7c-afea-5a69dcef93d7",
+      "target": "a47e527f-09bb-453e-a9a7-bc5b26444345",
+      "type": "DEPENDS_ON",
+      "reason": "Next.js is built entirely on top of React."
+    },
+    {
+      "source": "be6eb97b-dfe6-4a6f-b5a5-3a31b0722ba0",
+      "target": "d9d6ae05-a20f-44e1-98d8-b91e80181a4f",
+      "type": "CONNECTS_TO",
+      "reason": "Zapier connects to Slack via its integration marketplace."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "Cursor is classified as a Code Assistant."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "Windsurf is classified as a Code Assistant."
+    },
+    {
+      "source": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "Continue is classified as a Code Assistant."
+    },
+    {
+      "source": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "target": "de4aa26c-2737-4c60-9c49-0b8c98adda42",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "Cline is classified as an autonomous coding Agent."
+    },
+    {
+      "source": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "GitHub Copilot is a Code Assistant."
+    },
+    {
+      "source": "31d60832-67b6-4be9-9355-7f908f465377",
+      "target": "2fd283d3-d0ed-4138-8851-2dc66e9c77bd",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "Claude 3.5 Sonnet is an LLM."
+    },
+    {
+      "source": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "target": "2fd283d3-d0ed-4138-8851-2dc66e9c77bd",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "GPT-4o is an LLM."
+    },
+    {
+      "source": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "target": "cceecda6-1ae0-478e-8b6d-9864207d3f37",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "Midjourney is an Image Generation model."
+    },
+    {
+      "source": "78a39c85-7532-4c6e-a89a-03f05f8f85d3",
+      "target": "16bae620-0150-4a91-b419-e7a9bb303378",
+      "type": "BELONGS_TO_CATEGORY",
+      "reason": "Pinecone is a Vector Database."
+    },
+    {
+      "source": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "target": "d9d6ae05-a20f-44e1-98d8-b91e80181a4f",
+      "type": "USES",
+      "reason": "Gemma 7B uses Slack to enhance its capabilities."
+    },
+    {
+      "source": "ee65a024-8678-4bb2-878f-6f67db8274da",
+      "target": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "type": "USES",
+      "reason": "Perplexity API uses Fleet to enhance its capabilities."
+    },
+    {
+      "source": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "target": "b6ecdafb-f6c1-4227-9fa9-6ea95bc3d2eb",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cloudflare AI integrates with Claude 3 Haiku to enhance its capabilities."
+    },
+    {
+      "source": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "target": "59a9fd47-f13f-4415-8ded-07499c3d8cfe",
+      "type": "DEPENDS_ON",
+      "reason": "Claude 3 Opus depends on Notion to enhance its capabilities."
+    },
+    {
+      "source": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "target": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "type": "SUPPORTED_BY",
+      "reason": "NVIDIA supported by Claude 3 Opus to enhance its capabilities."
+    },
+    {
+      "source": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "target": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "type": "USES",
+      "reason": "MongoDB uses Datadog to enhance its capabilities."
+    },
+    {
+      "source": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "target": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "type": "USES",
+      "reason": "Cline uses Whisper to enhance its capabilities."
+    },
+    {
+      "source": "27579379-2e44-4a50-86e5-6f4c70743064",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "DEPENDS_ON",
+      "reason": "Linear Asks depends on GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "2c9ba68f-e7e9-4725-b33d-e1588c278a6a",
+      "target": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "type": "SUPPORTED_BY",
+      "reason": "Elasticsearch supported by Gemini to enhance its capabilities."
+    },
+    {
+      "source": "78a39c85-7532-4c6e-a89a-03f05f8f85d3",
+      "target": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "type": "DEPENDS_ON",
+      "reason": "Pinecone depends on Devin to enhance its capabilities."
+    },
+    {
+      "source": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "target": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "type": "INTEGRATES_WITH",
+      "reason": "GPT-4o integrates with Google to enhance its capabilities."
+    },
+    {
+      "source": "0bf229ae-efd3-4de7-9748-d160f27e4fab",
+      "target": "95a1f371-1181-44a5-8de9-caa69023a1c5",
+      "type": "SUPPORTED_BY",
+      "reason": "FastAPI supported by OpenAI API to enhance its capabilities."
+    },
+    {
+      "source": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "target": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "type": "DEPENDS_ON",
+      "reason": "Modal depends on Notion API to enhance its capabilities."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "type": "USES",
+      "reason": "Windsurf uses Weaviate to enhance its capabilities."
+    },
+    {
+      "source": "13ec2600-d893-439b-a4a8-ffbdd38d72c4",
+      "target": "a77beddd-da99-4e23-9db8-da3171376e52",
+      "type": "DEPENDS_ON",
+      "reason": "Raycast depends on ChatGPT to enhance its capabilities."
+    },
+    {
+      "source": "b42f33cf-51a0-4432-ab89-c9ba01193b1c",
+      "target": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "type": "INTEGRATES_WITH",
+      "reason": "Zed integrates with Fleet to enhance its capabilities."
+    },
+    {
+      "source": "d76a3cfa-aa18-4832-937c-6a7f88c888f3",
+      "target": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "type": "SUPPORTED_BY",
+      "reason": "Figma supported by RedisVL to enhance its capabilities."
+    },
+    {
+      "source": "13ec2600-d893-439b-a4a8-ffbdd38d72c4",
+      "target": "f706d323-99e8-44db-ab80-06cc8aab9228",
+      "type": "DEPENDS_ON",
+      "reason": "Raycast depends on Hugging Face Transformers to enhance its capabilities."
+    },
+    {
+      "source": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "target": "b6ecdafb-f6c1-4227-9fa9-6ea95bc3d2eb",
+      "type": "DEPENDS_ON",
+      "reason": "Svelte depends on Claude 3 Haiku to enhance its capabilities."
+    },
+    {
+      "source": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "target": "da85b05c-b134-4a37-8c5f-3e72e11c6a2b",
+      "type": "SUPPORTED_BY",
+      "reason": "Whisper supported by Gemini 1.5 Flash to enhance its capabilities."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "95a1f371-1181-44a5-8de9-caa69023a1c5",
+      "type": "CONNECTS_TO",
+      "reason": "Perplexity connects to OpenAI API to enhance its capabilities."
+    },
+    {
+      "source": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "target": "4295eea3-8a98-45f1-9ecb-868c6b1a6fa9",
+      "type": "USES",
+      "reason": "Hugging Face uses PyTorch to enhance its capabilities."
+    },
+    {
+      "source": "dd7c0bf2-437f-4133-85a1-8b99873540e3",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "USES",
+      "reason": "TensorFlow uses GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "target": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "type": "SUPPORTED_BY",
+      "reason": "Express supported by Cline to enhance its capabilities."
+    },
+    {
+      "source": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "target": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "type": "SUPPORTED_BY",
+      "reason": "Fleet supported by Mistral Large to enhance its capabilities."
+    },
+    {
+      "source": "be6eb97b-dfe6-4a6f-b5a5-3a31b0722ba0",
+      "target": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "type": "INTEGRATES_WITH",
+      "reason": "Zapier integrates with Express to enhance its capabilities."
+    },
+    {
+      "source": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "target": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "type": "CONNECTS_TO",
+      "reason": "Gemma 7B connects to Baseten to enhance its capabilities."
+    },
+    {
+      "source": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "target": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "type": "INTEGRATES_WITH",
+      "reason": "Fleet integrates with DALL-E 3 to enhance its capabilities."
+    },
+    {
+      "source": "59821f1f-f084-4cb0-b327-80733348f8c5",
+      "target": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "type": "USES",
+      "reason": "Codeium uses v0 to enhance its capabilities."
+    },
+    {
+      "source": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "target": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "type": "CONNECTS_TO",
+      "reason": "Runpod connects to GitHub Copilot to enhance its capabilities."
+    },
+    {
+      "source": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "target": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "type": "USES",
+      "reason": "StackBlitz uses Mistral to enhance its capabilities."
+    },
+    {
+      "source": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "target": "62ee7598-266f-494b-aa50-aa905d90d8fc",
+      "type": "SUPPORTED_BY",
+      "reason": "Stripe API supported by Supabase to enhance its capabilities."
+    },
+    {
+      "source": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "target": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "type": "SUPPORTED_BY",
+      "reason": "GitHub Copilot supported by Neovim to enhance its capabilities."
+    },
+    {
+      "source": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "target": "8c37839c-6d25-4b81-a316-f8212c6dbbbe",
+      "type": "USES",
+      "reason": "Cohere uses Meta to enhance its capabilities."
+    },
+    {
+      "source": "6768b699-ae99-41a4-a906-901f6f724afe",
+      "target": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "type": "DEPENDS_ON",
+      "reason": "Hugging Face Inference API depends on Gemma 7B to enhance its capabilities."
+    },
+    {
+      "source": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "target": "3946b287-faaa-4975-97ba-9a52bf65aae8",
+      "type": "USES",
+      "reason": "Cohere uses Vue to enhance its capabilities."
+    },
+    {
+      "source": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "target": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cline integrates with Continue to enhance its capabilities."
+    },
+    {
+      "source": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "target": "7d1a0f39-4791-4be4-8882-ec692a14b6d3",
+      "type": "CONNECTS_TO",
+      "reason": "AWS Bedrock connects to Command R+ to enhance its capabilities."
+    },
+    {
+      "source": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "target": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "type": "USES",
+      "reason": "Chroma uses DALL-E 3 to enhance its capabilities."
+    },
+    {
+      "source": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "target": "e543e45a-6656-428e-a4f3-dcd1b42a6fa4",
+      "type": "CONNECTS_TO",
+      "reason": "GraphQL connects to Make to enhance its capabilities."
+    },
+    {
+      "source": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "target": "95a1f371-1181-44a5-8de9-caa69023a1c5",
+      "type": "CONNECTS_TO",
+      "reason": "GitHub connects to OpenAI API to enhance its capabilities."
+    },
+    {
+      "source": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "target": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "type": "USES",
+      "reason": "Weaviate uses Neovim to enhance its capabilities."
+    },
+    {
+      "source": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "target": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "type": "USES",
+      "reason": "Express uses GitHub to enhance its capabilities."
+    },
+    {
+      "source": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "target": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "type": "SUPPORTED_BY",
+      "reason": "Anthropic API supported by Productivity to enhance its capabilities."
+    },
+    {
+      "source": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "target": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "type": "SUPPORTED_BY",
+      "reason": "Docker supported by Gemini API to enhance its capabilities."
+    },
+    {
+      "source": "6a37f4d4-6658-4399-986e-1406e822f750",
+      "target": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "type": "INTEGRATES_WITH",
+      "reason": "WebStorm integrates with OAuth2 to enhance its capabilities."
+    },
+    {
+      "source": "62d2ffc7-0d48-460f-80bd-39b708d9b150",
+      "target": "82f1721a-6148-4a90-9842-5e32e5a8a24e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Glean integrates with OpenID Connect to enhance its capabilities."
+    },
+    {
+      "source": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "target": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "type": "SUPPORTED_BY",
+      "reason": "Vercel supported by MongoDB to enhance its capabilities."
+    },
+    {
+      "source": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "target": "6768b699-ae99-41a4-a906-901f6f724afe",
+      "type": "CONNECTS_TO",
+      "reason": "DALL-E 3 connects to Hugging Face Inference API to enhance its capabilities."
+    },
+    {
+      "source": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "target": "2d070954-7b21-4c7c-afea-5a69dcef93d7",
+      "type": "USES",
+      "reason": "Lovable uses Next.js to enhance its capabilities."
+    },
+    {
+      "source": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "target": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "type": "INTEGRATES_WITH",
+      "reason": "Atlassian integrates with Notion API to enhance its capabilities."
+    },
+    {
+      "source": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "target": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "type": "CONNECTS_TO",
+      "reason": "v0 connects to Gemini 1.5 Pro to enhance its capabilities."
+    },
+    {
+      "source": "750918f9-eaaa-455c-93aa-2ede78086a25",
+      "target": "e4b18e41-2972-438b-8ac6-7d318915ce6d",
+      "type": "USES",
+      "reason": "Superhuman uses Stripe to enhance its capabilities."
+    },
+    {
+      "source": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "target": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "type": "USES",
+      "reason": "Mistral uses Google to enhance its capabilities."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "DEPENDS_ON",
+      "reason": "Perplexity depends on Code Assistant to enhance its capabilities."
+    },
+    {
+      "source": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "target": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "type": "DEPENDS_ON",
+      "reason": "Whisper depends on Cline to enhance its capabilities."
+    },
+    {
+      "source": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "target": "8de1dabc-c360-448e-a870-0aba94bf1d0c",
+      "type": "USES",
+      "reason": "Azure AI uses Milvus to enhance its capabilities."
+    },
+    {
+      "source": "78724195-33e8-4b8f-81bc-f4b6f3f67216",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "USES",
+      "reason": "Rewind uses GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "target": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "type": "CONNECTS_TO",
+      "reason": "Discord Webhooks connects to v0 to enhance its capabilities."
+    },
+    {
+      "source": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "target": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "type": "DEPENDS_ON",
+      "reason": "Modal depends on Productivity to enhance its capabilities."
+    },
+    {
+      "source": "d76a3cfa-aa18-4832-937c-6a7f88c888f3",
+      "target": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "type": "DEPENDS_ON",
+      "reason": "Figma depends on Devin to enhance its capabilities."
+    },
+    {
+      "source": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "target": "974ebde8-3240-4f17-807d-6560b1dde23b",
+      "type": "USES",
+      "reason": "Bolt.new uses Midjourney to enhance its capabilities."
+    },
+    {
+      "source": "f970575e-8ef4-4ad7-bca1-3e5150cd47eb",
+      "target": "dcd0af7e-9b0f-4443-a303-a23ba3a249d9",
+      "type": "INTEGRATES_WITH",
+      "reason": "AMD integrates with Llama 3 70B to enhance its capabilities."
+    },
+    {
+      "source": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "target": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "type": "USES",
+      "reason": "Google uses Datadog to enhance its capabilities."
+    },
+    {
+      "source": "6ea3064f-0ec4-431b-9280-8d61f6e1474d",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "INTEGRATES_WITH",
+      "reason": "GitHub API integrates with GPT-4o to enhance its capabilities."
+    },
+    {
+      "source": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "target": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "type": "USES",
+      "reason": "Anthropic uses VS Code to enhance its capabilities."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "type": "USES",
+      "reason": "Cursor uses Hugging Face to enhance its capabilities."
+    },
+    {
+      "source": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "target": "3946b287-faaa-4975-97ba-9a52bf65aae8",
+      "type": "USES",
+      "reason": "Hugging Face uses Vue to enhance its capabilities."
+    },
+    {
+      "source": "a0b35e52-dfb6-45e6-9044-eafe095927fb",
+      "target": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "type": "CONNECTS_TO",
+      "reason": "Google Cloud Vertex AI connects to MongoDB to enhance its capabilities."
+    },
+    {
+      "source": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "target": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "type": "SUPPORTED_BY",
+      "reason": "StackBlitz supported by Whisper to enhance its capabilities."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "type": "USES",
+      "reason": "Windsurf uses Continue to enhance its capabilities."
+    },
+    {
+      "source": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "target": "42b5b6bd-5530-463d-a4f9-22b8f3c99832",
+      "type": "DEPENDS_ON",
+      "reason": "Atlassian depends on Mem to enhance its capabilities."
+    },
+    {
+      "source": "c7ae54cd-8013-4b8c-94e8-ac2cb27688f5",
+      "target": "27579379-2e44-4a50-86e5-6f4c70743064",
+      "type": "DEPENDS_ON",
+      "reason": "LlamaIndex depends on Linear Asks to enhance its capabilities."
+    },
+    {
+      "source": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "target": "750918f9-eaaa-455c-93aa-2ede78086a25",
+      "type": "USES",
+      "reason": "Notion API uses Superhuman to enhance its capabilities."
+    },
+    {
+      "source": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "target": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cloudflare AI integrates with Stripe Webhooks to enhance its capabilities."
+    },
+    {
+      "source": "6ea3064f-0ec4-431b-9280-8d61f6e1474d",
+      "target": "febe7e31-1c6f-4837-b819-e86b8488cee1",
+      "type": "INTEGRATES_WITH",
+      "reason": "GitHub API integrates with WebRTC to enhance its capabilities."
+    },
+    {
+      "source": "59a9fd47-f13f-4415-8ded-07499c3d8cfe",
+      "target": "78724195-33e8-4b8f-81bc-f4b6f3f67216",
+      "type": "USES",
+      "reason": "Notion uses Rewind to enhance its capabilities."
+    },
+    {
+      "source": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "target": "dcd0af7e-9b0f-4443-a303-a23ba3a249d9",
+      "type": "CONNECTS_TO",
+      "reason": "Midjourney V6 connects to Llama 3 70B to enhance its capabilities."
+    },
+    {
+      "source": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "target": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "type": "DEPENDS_ON",
+      "reason": "Modal depends on Google to enhance its capabilities."
+    },
+    {
+      "source": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "target": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "type": "USES",
+      "reason": "Stripe API uses Productivity to enhance its capabilities."
+    },
+    {
+      "source": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "target": "32c2c008-9a4e-49a2-9a2e-9f9cdde09d4f",
+      "type": "INTEGRATES_WITH",
+      "reason": "Notion AI integrates with GitHub Actions to enhance its capabilities."
+    },
+    {
+      "source": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "target": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "type": "INTEGRATES_WITH",
+      "reason": "GraphQL integrates with NVIDIA to enhance its capabilities."
+    },
+    {
+      "source": "0bf229ae-efd3-4de7-9748-d160f27e4fab",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "USES",
+      "reason": "FastAPI uses GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "78724195-33e8-4b8f-81bc-f4b6f3f67216",
+      "target": "bb1335cc-077a-44ad-b5ba-188538a723e2",
+      "type": "SUPPORTED_BY",
+      "reason": "Rewind supported by REST to enhance its capabilities."
+    },
+    {
+      "source": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "target": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "type": "DEPENDS_ON",
+      "reason": "Discord Webhooks depends on AWS Bedrock to enhance its capabilities."
+    },
+    {
+      "source": "bb1335cc-077a-44ad-b5ba-188538a723e2",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "INTEGRATES_WITH",
+      "reason": "REST integrates with GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "target": "f970575e-8ef4-4ad7-bca1-3e5150cd47eb",
+      "type": "SUPPORTED_BY",
+      "reason": "MCP (Model Context Protocol) supported by AMD to enhance its capabilities."
+    },
+    {
+      "source": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "target": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "type": "INTEGRATES_WITH",
+      "reason": "Weaviate integrates with Modal to enhance its capabilities."
+    },
+    {
+      "source": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "target": "5950ec60-7a91-463e-99d8-53a9ea533c2e",
+      "type": "CONNECTS_TO",
+      "reason": "StackBlitz connects to Replicate to enhance its capabilities."
+    },
+    {
+      "source": "b6ecdafb-f6c1-4227-9fa9-6ea95bc3d2eb",
+      "target": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "type": "INTEGRATES_WITH",
+      "reason": "Claude 3 Haiku integrates with Anthropic to enhance its capabilities."
+    },
+    {
+      "source": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "target": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "type": "SUPPORTED_BY",
+      "reason": "Gemma 7B supported by RedisVL to enhance its capabilities."
+    },
+    {
+      "source": "a0b35e52-dfb6-45e6-9044-eafe095927fb",
+      "target": "ecc115fe-b054-4936-95dc-17e7f2de1fee",
+      "type": "DEPENDS_ON",
+      "reason": "Google Cloud Vertex AI depends on Linear API to enhance its capabilities."
+    },
+    {
+      "source": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "target": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "type": "SUPPORTED_BY",
+      "reason": "Phind-34B supported by Atlassian to enhance its capabilities."
+    },
+    {
+      "source": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "target": "6b9c31c3-0082-4bbe-b38a-f1de0504c986",
+      "type": "USES",
+      "reason": "Datadog uses Figma AI to enhance its capabilities."
+    },
+    {
+      "source": "a72c8679-387f-4764-a23e-14cb046aac19",
+      "target": "0b4dbdd1-1de4-4964-a338-d11e1b502b76",
+      "type": "DEPENDS_ON",
+      "reason": "GPT-3.5 depends on Cohere API to enhance its capabilities."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "14edd779-1987-4d4d-b664-14442abe4c84",
+      "type": "CONNECTS_TO",
+      "reason": "Windsurf connects to Cloudflare to enhance its capabilities."
+    },
+    {
+      "source": "5950ec60-7a91-463e-99d8-53a9ea533c2e",
+      "target": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "type": "CONNECTS_TO",
+      "reason": "Replicate connects to Django to enhance its capabilities."
+    },
+    {
+      "source": "6b9c31c3-0082-4bbe-b38a-f1de0504c986",
+      "target": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "type": "INTEGRATES_WITH",
+      "reason": "Figma AI integrates with Gemini API to enhance its capabilities."
+    },
+    {
+      "source": "8de1dabc-c360-448e-a870-0aba94bf1d0c",
+      "target": "e543e45a-6656-428e-a4f3-dcd1b42a6fa4",
+      "type": "USES",
+      "reason": "Milvus uses Make to enhance its capabilities."
+    },
+    {
+      "source": "a0cc6ee9-4a78-42a0-a5c3-d149f2d9757e",
+      "target": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "type": "CONNECTS_TO",
+      "reason": "Fireworks AI connects to Stripe Webhooks to enhance its capabilities."
+    },
+    {
+      "source": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "target": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "type": "USES",
+      "reason": "NVIDIA uses Google to enhance its capabilities."
+    },
+    {
+      "source": "ecc115fe-b054-4936-95dc-17e7f2de1fee",
+      "target": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "type": "SUPPORTED_BY",
+      "reason": "Linear API supported by Stripe Webhooks to enhance its capabilities."
+    },
+    {
+      "source": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "target": "974ebde8-3240-4f17-807d-6560b1dde23b",
+      "type": "CONNECTS_TO",
+      "reason": "GraphQL connects to Midjourney to enhance its capabilities."
+    },
+    {
+      "source": "d608e18d-35bb-4a04-9350-00342ef23a8f",
+      "target": "6e320e9c-5e20-4b80-ab11-22e73e0b8075",
+      "type": "INTEGRATES_WITH",
+      "reason": "Stable Diffusion 3 integrates with TTS-1 to enhance its capabilities."
+    },
+    {
+      "source": "6b9c31c3-0082-4bbe-b38a-f1de0504c986",
+      "target": "180222a9-b1c3-4c8e-8a35-d226d8d8d12b",
+      "type": "SUPPORTED_BY",
+      "reason": "Figma AI supported by Tailwind CSS to enhance its capabilities."
+    },
+    {
+      "source": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "target": "32c2c008-9a4e-49a2-9a2e-9f9cdde09d4f",
+      "type": "SUPPORTED_BY",
+      "reason": "Hugging Face supported by GitHub Actions to enhance its capabilities."
+    },
+    {
+      "source": "6e320e9c-5e20-4b80-ab11-22e73e0b8075",
+      "target": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "type": "SUPPORTED_BY",
+      "reason": "TTS-1 supported by Gemini to enhance its capabilities."
+    },
+    {
+      "source": "e4b18e41-2972-438b-8ac6-7d318915ce6d",
+      "target": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "type": "USES",
+      "reason": "Stripe uses NVIDIA to enhance its capabilities."
+    },
+    {
+      "source": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "target": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "type": "DEPENDS_ON",
+      "reason": "Fleet depends on Azure AI to enhance its capabilities."
+    },
+    {
+      "source": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "target": "b6ecdafb-f6c1-4227-9fa9-6ea95bc3d2eb",
+      "type": "USES",
+      "reason": "Weaviate uses Claude 3 Haiku to enhance its capabilities."
+    },
+    {
+      "source": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "target": "b9b6a356-aac3-4431-99ae-d5e9aebead14",
+      "type": "DEPENDS_ON",
+      "reason": "Mistral depends on GPT-4 Turbo to enhance its capabilities."
+    },
+    {
+      "source": "a72c8679-387f-4764-a23e-14cb046aac19",
+      "target": "42b5b6bd-5530-463d-a4f9-22b8f3c99832",
+      "type": "DEPENDS_ON",
+      "reason": "GPT-3.5 depends on Mem to enhance its capabilities."
+    },
+    {
+      "source": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "target": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "type": "USES",
+      "reason": "Lovable uses Gemini 1.5 Pro to enhance its capabilities."
+    },
+    {
+      "source": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "target": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "type": "SUPPORTED_BY",
+      "reason": "Continue supported by VS Code to enhance its capabilities."
+    },
+    {
+      "source": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "target": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "type": "DEPENDS_ON",
+      "reason": "Mistral depends on Datadog to enhance its capabilities."
+    },
+    {
+      "source": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "target": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "type": "INTEGRATES_WITH",
+      "reason": "GitHub Copilot integrates with Claude 3 Opus to enhance its capabilities."
+    },
+    {
+      "source": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "target": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "type": "DEPENDS_ON",
+      "reason": "Notion API depends on Claude 3 Opus to enhance its capabilities."
+    },
+    {
+      "source": "180222a9-b1c3-4c8e-8a35-d226d8d8d12b",
+      "target": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "type": "CONNECTS_TO",
+      "reason": "Tailwind CSS connects to MongoDB to enhance its capabilities."
+    },
+    {
+      "source": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "target": "b2d47a01-4b06-49b0-bf32-2ff8c938a77c",
+      "type": "DEPENDS_ON",
+      "reason": "Runpod depends on Groq to enhance its capabilities."
+    },
+    {
+      "source": "11cb3837-9017-4ada-b300-c9967e28b02e",
+      "target": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "type": "DEPENDS_ON",
+      "reason": "Elastic depends on Anthropic API to enhance its capabilities."
+    },
+    {
+      "source": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "target": "974ebde8-3240-4f17-807d-6560b1dde23b",
+      "type": "INTEGRATES_WITH",
+      "reason": "Google integrates with Midjourney to enhance its capabilities."
+    },
+    {
+      "source": "16bae620-0150-4a91-b419-e7a9bb303378",
+      "target": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "type": "SUPPORTED_BY",
+      "reason": "Database supported by RedisVL to enhance its capabilities."
+    },
+    {
+      "source": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "target": "6e320e9c-5e20-4b80-ab11-22e73e0b8075",
+      "type": "DEPENDS_ON",
+      "reason": "DALL-E 3 depends on TTS-1 to enhance its capabilities."
+    },
+    {
+      "source": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "target": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cohere integrates with Gemini 1.5 Pro to enhance its capabilities."
+    },
+    {
+      "source": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "target": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Neovim integrates with Gemini to enhance its capabilities."
+    },
+    {
+      "source": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "target": "d919559b-44cb-44e8-9586-285e54df5356",
+      "type": "SUPPORTED_BY",
+      "reason": "Discord Webhooks supported by Developer Tools to enhance its capabilities."
+    },
+    {
+      "source": "8e3988a3-66c2-47c0-b791-132f606c88c9",
+      "target": "a16b450b-80da-4cad-9e02-a53b258b1093",
+      "type": "INTEGRATES_WITH",
+      "reason": "Mixtral 8x7B integrates with PyCharm to enhance its capabilities."
+    },
+    {
+      "source": "27579379-2e44-4a50-86e5-6f4c70743064",
+      "target": "e0f486ae-9ce8-4eb6-a034-1a10bdcddad2",
+      "type": "DEPENDS_ON",
+      "reason": "Linear Asks depends on Cloud Infrastructure to enhance its capabilities."
+    },
+    {
+      "source": "a0cc6ee9-4a78-42a0-a5c3-d149f2d9757e",
+      "target": "a16b450b-80da-4cad-9e02-a53b258b1093",
+      "type": "INTEGRATES_WITH",
+      "reason": "Fireworks AI integrates with PyCharm to enhance its capabilities."
+    },
+    {
+      "source": "2fd283d3-d0ed-4138-8851-2dc66e9c77bd",
+      "target": "be6eb97b-dfe6-4a6f-b5a5-3a31b0722ba0",
+      "type": "CONNECTS_TO",
+      "reason": "LLM connects to Zapier to enhance its capabilities."
+    },
+    {
+      "source": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "target": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "type": "DEPENDS_ON",
+      "reason": "Productivity depends on Lovable to enhance its capabilities."
+    },
+    {
+      "source": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "target": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "type": "SUPPORTED_BY",
+      "reason": "Docker supported by Gemini to enhance its capabilities."
+    },
+    {
+      "source": "2c9ba68f-e7e9-4725-b33d-e1588c278a6a",
+      "target": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Elasticsearch integrates with Cursor to enhance its capabilities."
+    },
+    {
+      "source": "6b9c31c3-0082-4bbe-b38a-f1de0504c986",
+      "target": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "type": "CONNECTS_TO",
+      "reason": "Figma AI connects to Midjourney V6 to enhance its capabilities."
+    },
+    {
+      "source": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "target": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "type": "INTEGRATES_WITH",
+      "reason": "Anthropic integrates with Discord Webhooks to enhance its capabilities."
+    },
+    {
+      "source": "62d2ffc7-0d48-460f-80bd-39b708d9b150",
+      "target": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "type": "CONNECTS_TO",
+      "reason": "Glean connects to Devin to enhance its capabilities."
+    },
+    {
+      "source": "16bae620-0150-4a91-b419-e7a9bb303378",
+      "target": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "type": "SUPPORTED_BY",
+      "reason": "Database supported by Devin to enhance its capabilities."
+    },
+    {
+      "source": "be6eb97b-dfe6-4a6f-b5a5-3a31b0722ba0",
+      "target": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "type": "SUPPORTED_BY",
+      "reason": "Zapier supported by Voice/Audio to enhance its capabilities."
+    },
+    {
+      "source": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "target": "a77beddd-da99-4e23-9db8-da3171376e52",
+      "type": "SUPPORTED_BY",
+      "reason": "Whisper supported by ChatGPT to enhance its capabilities."
+    },
+    {
+      "source": "2c9ba68f-e7e9-4725-b33d-e1588c278a6a",
+      "target": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "type": "DEPENDS_ON",
+      "reason": "Elasticsearch depends on StackBlitz to enhance its capabilities."
+    },
+    {
+      "source": "de4aa26c-2737-4c60-9c49-0b8c98adda42",
+      "target": "59a9fd47-f13f-4415-8ded-07499c3d8cfe",
+      "type": "INTEGRATES_WITH",
+      "reason": "Agent integrates with Notion to enhance its capabilities."
+    },
+    {
+      "source": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "target": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "type": "INTEGRATES_WITH",
+      "reason": "Azure AI integrates with AWS Bedrock to enhance its capabilities."
+    },
+    {
+      "source": "a7619702-1757-4484-8863-0fe164b85166",
+      "target": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "type": "INTEGRATES_WITH",
+      "reason": "Code Assistant integrates with Cohere to enhance its capabilities."
+    },
+    {
+      "source": "543faca7-a64f-4ac6-beff-9244fcefdaea",
+      "target": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "type": "SUPPORTED_BY",
+      "reason": "Design supported by Neovim to enhance its capabilities."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "type": "DEPENDS_ON",
+      "reason": "Windsurf depends on Mistral to enhance its capabilities."
+    },
+    {
+      "source": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "target": "13ec2600-d893-439b-a4a8-ffbdd38d72c4",
+      "type": "DEPENDS_ON",
+      "reason": "Stripe API depends on Raycast to enhance its capabilities."
+    },
+    {
+      "source": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "target": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "type": "DEPENDS_ON",
+      "reason": "Gemini API depends on Stripe API to enhance its capabilities."
+    },
+    {
+      "source": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "target": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "type": "USES",
+      "reason": "Modal uses Voice/Audio to enhance its capabilities."
+    },
+    {
+      "source": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "target": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Notion AI integrates with Gemini to enhance its capabilities."
+    },
+    {
+      "source": "20d0bebf-638e-46e7-a466-9c55e7dbb804",
+      "target": "d608e18d-35bb-4a04-9350-00342ef23a8f",
+      "type": "CONNECTS_TO",
+      "reason": "Linear connects to Stable Diffusion 3 to enhance its capabilities."
+    },
+    {
+      "source": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "target": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "type": "USES",
+      "reason": "Stripe Webhooks uses Neovim to enhance its capabilities."
+    },
+    {
+      "source": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "target": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "type": "DEPENDS_ON",
+      "reason": "Discord Webhooks depends on VS Code to enhance its capabilities."
+    },
+    {
+      "source": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "target": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "type": "USES",
+      "reason": "Bolt.new uses v0 to enhance its capabilities."
+    },
+    {
+      "source": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "target": "d0670952-32e2-4169-863e-66a2d785861a",
+      "type": "SUPPORTED_BY",
+      "reason": "Gemini API supported by OpenAI to enhance its capabilities."
+    },
+    {
+      "source": "72bfb90a-6416-4a3f-b7a8-bbd338c98834",
+      "target": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "type": "CONNECTS_TO",
+      "reason": "Arc Browser connects to Vercel to enhance its capabilities."
+    },
+    {
+      "source": "e0f486ae-9ce8-4eb6-a034-1a10bdcddad2",
+      "target": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "type": "CONNECTS_TO",
+      "reason": "Cloud Infrastructure connects to Svelte to enhance its capabilities."
+    },
+    {
+      "source": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "target": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "type": "SUPPORTED_BY",
+      "reason": "RedisVL supported by Anthropic API to enhance its capabilities."
+    },
+    {
+      "source": "7d1a0f39-4791-4be4-8882-ec692a14b6d3",
+      "target": "b2d47a01-4b06-49b0-bf32-2ff8c938a77c",
+      "type": "DEPENDS_ON",
+      "reason": "Command R+ depends on Groq to enhance its capabilities."
+    },
+    {
+      "source": "dd7c0bf2-437f-4133-85a1-8b99873540e3",
+      "target": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "type": "SUPPORTED_BY",
+      "reason": "TensorFlow supported by Notion AI to enhance its capabilities."
+    },
+    {
+      "source": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "target": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "type": "INTEGRATES_WITH",
+      "reason": "Django integrates with Devin to enhance its capabilities."
+    },
+    {
+      "source": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "target": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "type": "DEPENDS_ON",
+      "reason": "Docker depends on Datadog to enhance its capabilities."
+    },
+    {
+      "source": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "target": "ecc115fe-b054-4936-95dc-17e7f2de1fee",
+      "type": "SUPPORTED_BY",
+      "reason": "Devin supported by Linear API to enhance its capabilities."
+    },
+    {
+      "source": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "target": "dcd0af7e-9b0f-4443-a303-a23ba3a249d9",
+      "type": "USES",
+      "reason": "Anthropic API uses Llama 3 70B to enhance its capabilities."
+    },
+    {
+      "source": "8c37839c-6d25-4b81-a316-f8212c6dbbbe",
+      "target": "f706d323-99e8-44db-ab80-06cc8aab9228",
+      "type": "SUPPORTED_BY",
+      "reason": "Meta supported by Hugging Face Transformers to enhance its capabilities."
+    },
+    {
+      "source": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "target": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "type": "SUPPORTED_BY",
+      "reason": "Notion API supported by Cloudflare AI to enhance its capabilities."
+    },
+    {
+      "source": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "target": "d0c4d815-1ab5-4508-8de8-abbe9b31a247",
+      "type": "DEPENDS_ON",
+      "reason": "DALL-E 3 depends on Microsoft to enhance its capabilities."
+    },
+    {
+      "source": "13ec2600-d893-439b-a4a8-ffbdd38d72c4",
+      "target": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "type": "INTEGRATES_WITH",
+      "reason": "Raycast integrates with MongoDB to enhance its capabilities."
+    },
+    {
+      "source": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "target": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "type": "INTEGRATES_WITH",
+      "reason": "Gemini 1.5 Pro integrates with Baseten to enhance its capabilities."
+    },
+    {
+      "source": "543faca7-a64f-4ac6-beff-9244fcefdaea",
+      "target": "59821f1f-f084-4cb0-b327-80733348f8c5",
+      "type": "INTEGRATES_WITH",
+      "reason": "Design integrates with Codeium to enhance its capabilities."
+    },
+    {
+      "source": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "target": "d2978801-fa80-438e-88fb-ba888e97441f",
+      "type": "CONNECTS_TO",
+      "reason": "VS Code connects to Warp to enhance its capabilities."
+    },
+    {
+      "source": "d608e18d-35bb-4a04-9350-00342ef23a8f",
+      "target": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "type": "SUPPORTED_BY",
+      "reason": "Stable Diffusion 3 supported by Vercel to enhance its capabilities."
+    },
+    {
+      "source": "7994d8ed-635d-4463-bf1a-ccc1f44e91ab",
+      "target": "bc329a70-b6c6-4b51-a529-55ce13c75995",
+      "type": "DEPENDS_ON",
+      "reason": "Together AI depends on Vercel Integrations to enhance its capabilities."
+    },
+    {
+      "source": "3946b287-faaa-4975-97ba-9a52bf65aae8",
+      "target": "750918f9-eaaa-455c-93aa-2ede78086a25",
+      "type": "SUPPORTED_BY",
+      "reason": "Vue supported by Superhuman to enhance its capabilities."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "type": "DEPENDS_ON",
+      "reason": "Cursor depends on DALL-E 3 to enhance its capabilities."
+    },
+    {
+      "source": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "target": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cohere integrates with Docker to enhance its capabilities."
+    },
+    {
+      "source": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "target": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "type": "DEPENDS_ON",
+      "reason": "Phind-34B depends on Atlassian to enhance its capabilities."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "0b4dbdd1-1de4-4964-a338-d11e1b502b76",
+      "type": "SUPPORTED_BY",
+      "reason": "Perplexity supported by Cohere API to enhance its capabilities."
+    },
+    {
+      "source": "d76a3cfa-aa18-4832-937c-6a7f88c888f3",
+      "target": "da85b05c-b134-4a37-8c5f-3e72e11c6a2b",
+      "type": "CONNECTS_TO",
+      "reason": "Figma connects to Gemini 1.5 Flash to enhance its capabilities."
+    },
+    {
+      "source": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "target": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "type": "SUPPORTED_BY",
+      "reason": "Runpod supported by Devin to enhance its capabilities."
+    },
+    {
+      "source": "72bfb90a-6416-4a3f-b7a8-bbd338c98834",
+      "target": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "type": "CONNECTS_TO",
+      "reason": "Arc Browser connects to Claude to enhance its capabilities."
+    },
+    {
+      "source": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "target": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "type": "CONNECTS_TO",
+      "reason": "Atlassian connects to Midjourney V6 to enhance its capabilities."
+    },
+    {
+      "source": "c7ae54cd-8013-4b8c-94e8-ac2cb27688f5",
+      "target": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "type": "INTEGRATES_WITH",
+      "reason": "LlamaIndex integrates with Cline to enhance its capabilities."
+    },
+    {
+      "source": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "SUPPORTED_BY",
+      "reason": "StackBlitz supported by GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "b9b6a356-aac3-4431-99ae-d5e9aebead14",
+      "target": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "type": "DEPENDS_ON",
+      "reason": "GPT-4 Turbo depends on Midjourney V6 to enhance its capabilities."
+    },
+    {
+      "source": "4295eea3-8a98-45f1-9ecb-868c6b1a6fa9",
+      "target": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "type": "INTEGRATES_WITH",
+      "reason": "PyTorch integrates with Notion API to enhance its capabilities."
+    },
+    {
+      "source": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "target": "0bf229ae-efd3-4de7-9748-d160f27e4fab",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cloudflare AI integrates with FastAPI to enhance its capabilities."
+    },
+    {
+      "source": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "target": "974ebde8-3240-4f17-807d-6560b1dde23b",
+      "type": "CONNECTS_TO",
+      "reason": "Slack Integration connects to Midjourney to enhance its capabilities."
+    },
+    {
+      "source": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "target": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "type": "USES",
+      "reason": "Notion AI uses Windsurf to enhance its capabilities."
+    },
+    {
+      "source": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "target": "b2d47a01-4b06-49b0-bf32-2ff8c938a77c",
+      "type": "INTEGRATES_WITH",
+      "reason": "Gemini API integrates with Groq to enhance its capabilities."
+    },
+    {
+      "source": "8de1dabc-c360-448e-a870-0aba94bf1d0c",
+      "target": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "type": "INTEGRATES_WITH",
+      "reason": "Milvus integrates with Discord Webhooks to enhance its capabilities."
+    },
+    {
+      "source": "68983ce9-f89e-492a-abc4-5ac75611d85e",
+      "target": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "type": "CONNECTS_TO",
+      "reason": "Slack API connects to Claude 3 Opus to enhance its capabilities."
+    },
+    {
+      "source": "3946b287-faaa-4975-97ba-9a52bf65aae8",
+      "target": "d76a3cfa-aa18-4832-937c-6a7f88c888f3",
+      "type": "CONNECTS_TO",
+      "reason": "Vue connects to Figma to enhance its capabilities."
+    },
+    {
+      "source": "32c2c008-9a4e-49a2-9a2e-9f9cdde09d4f",
+      "target": "bc329a70-b6c6-4b51-a529-55ce13c75995",
+      "type": "INTEGRATES_WITH",
+      "reason": "GitHub Actions integrates with Vercel Integrations to enhance its capabilities."
+    },
+    {
+      "source": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "target": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "type": "DEPENDS_ON",
+      "reason": "Slack Integration depends on NVIDIA to enhance its capabilities."
+    },
+    {
+      "source": "2d070954-7b21-4c7c-afea-5a69dcef93d7",
+      "target": "de4aa26c-2737-4c60-9c49-0b8c98adda42",
+      "type": "INTEGRATES_WITH",
+      "reason": "Next.js integrates with Agent to enhance its capabilities."
+    },
+    {
+      "source": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "target": "a16b450b-80da-4cad-9e02-a53b258b1093",
+      "type": "CONNECTS_TO",
+      "reason": "Claude 3 Opus connects to PyCharm to enhance its capabilities."
+    },
+    {
+      "source": "d919559b-44cb-44e8-9586-285e54df5356",
+      "target": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "type": "INTEGRATES_WITH",
+      "reason": "Developer Tools integrates with RedisVL to enhance its capabilities."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "type": "USES",
+      "reason": "Perplexity uses Bolt.new to enhance its capabilities."
+    },
+    {
+      "source": "68983ce9-f89e-492a-abc4-5ac75611d85e",
+      "target": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "type": "INTEGRATES_WITH",
+      "reason": "Slack API integrates with Notion AI to enhance its capabilities."
+    },
+    {
+      "source": "7d1a0f39-4791-4be4-8882-ec692a14b6d3",
+      "target": "750918f9-eaaa-455c-93aa-2ede78086a25",
+      "type": "DEPENDS_ON",
+      "reason": "Command R+ depends on Superhuman to enhance its capabilities."
+    },
+    {
+      "source": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "target": "f970575e-8ef4-4ad7-bca1-3e5150cd47eb",
+      "type": "DEPENDS_ON",
+      "reason": "Productivity depends on AMD to enhance its capabilities."
+    },
+    {
+      "source": "a0cc6ee9-4a78-42a0-a5c3-d149f2d9757e",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "DEPENDS_ON",
+      "reason": "Fireworks AI depends on GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "72bfb90a-6416-4a3f-b7a8-bbd338c98834",
+      "target": "de4aa26c-2737-4c60-9c49-0b8c98adda42",
+      "type": "SUPPORTED_BY",
+      "reason": "Arc Browser supported by Agent to enhance its capabilities."
+    },
+    {
+      "source": "d76a3cfa-aa18-4832-937c-6a7f88c888f3",
+      "target": "b6ecdafb-f6c1-4227-9fa9-6ea95bc3d2eb",
+      "type": "DEPENDS_ON",
+      "reason": "Figma depends on Claude 3 Haiku to enhance its capabilities."
+    },
+    {
+      "source": "78a39c85-7532-4c6e-a89a-03f05f8f85d3",
+      "target": "d0c4d815-1ab5-4508-8de8-abbe9b31a247",
+      "type": "SUPPORTED_BY",
+      "reason": "Pinecone supported by Microsoft to enhance its capabilities."
+    },
+    {
+      "source": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "target": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "type": "SUPPORTED_BY",
+      "reason": "Baseten supported by Voice/Audio to enhance its capabilities."
+    },
+    {
+      "source": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "target": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "type": "USES",
+      "reason": "Discord Webhooks uses Midjourney V6 to enhance its capabilities."
+    },
+    {
+      "source": "134a6d7c-e6e3-4953-9701-25ff5328f7fa",
+      "target": "8e3988a3-66c2-47c0-b791-132f606c88c9",
+      "type": "INTEGRATES_WITH",
+      "reason": "WebSocket integrates with Mixtral 8x7B to enhance its capabilities."
+    },
+    {
+      "source": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "target": "cceecda6-1ae0-478e-8b6d-9864207d3f37",
+      "type": "USES",
+      "reason": "Hugging Face uses Image Generation to enhance its capabilities."
+    },
+    {
+      "source": "08a4bd13-591f-454e-b064-8cd740d27614",
+      "target": "d2978801-fa80-438e-88fb-ba888e97441f",
+      "type": "INTEGRATES_WITH",
+      "reason": "Redis integrates with Warp to enhance its capabilities."
+    },
+    {
+      "source": "79be377f-b7e4-4a66-a87d-d413c27290ec",
+      "target": "7994d8ed-635d-4463-bf1a-ccc1f44e91ab",
+      "type": "CONNECTS_TO",
+      "reason": "Linear GitHub Sync connects to Together AI to enhance its capabilities."
+    },
+    {
+      "source": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "target": "27579379-2e44-4a50-86e5-6f4c70743064",
+      "type": "INTEGRATES_WITH",
+      "reason": "OAuth2 integrates with Linear Asks to enhance its capabilities."
+    },
+    {
+      "source": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "target": "7994d8ed-635d-4463-bf1a-ccc1f44e91ab",
+      "type": "SUPPORTED_BY",
+      "reason": "Modal supported by Together AI to enhance its capabilities."
+    },
+    {
+      "source": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "target": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "type": "SUPPORTED_BY",
+      "reason": "GitHub supported by Voice/Audio to enhance its capabilities."
+    },
+    {
+      "source": "31d60832-67b6-4be9-9355-7f908f465377",
+      "target": "dcd0af7e-9b0f-4443-a303-a23ba3a249d9",
+      "type": "DEPENDS_ON",
+      "reason": "Claude 3.5 Sonnet depends on Llama 3 70B to enhance its capabilities."
+    },
+    {
+      "source": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "target": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "type": "USES",
+      "reason": "Atlassian uses Hugging Face to enhance its capabilities."
+    },
+    {
+      "source": "a0b35e52-dfb6-45e6-9044-eafe095927fb",
+      "target": "0b4dbdd1-1de4-4964-a338-d11e1b502b76",
+      "type": "SUPPORTED_BY",
+      "reason": "Google Cloud Vertex AI supported by Cohere API to enhance its capabilities."
+    },
+    {
+      "source": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "target": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "type": "CONNECTS_TO",
+      "reason": "Gemini connects to GitHub to enhance its capabilities."
+    },
+    {
+      "source": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "target": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "type": "SUPPORTED_BY",
+      "reason": "Datadog supported by Django to enhance its capabilities."
+    },
+    {
+      "source": "78724195-33e8-4b8f-81bc-f4b6f3f67216",
+      "target": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "type": "INTEGRATES_WITH",
+      "reason": "Rewind integrates with Mistral to enhance its capabilities."
+    },
+    {
+      "source": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "target": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "type": "CONNECTS_TO",
+      "reason": "Express connects to Anthropic to enhance its capabilities."
+    },
+    {
+      "source": "5950ec60-7a91-463e-99d8-53a9ea533c2e",
+      "target": "8a2ddeac-700f-4f53-a55d-7365d892dd9e",
+      "type": "SUPPORTED_BY",
+      "reason": "Replicate supported by Cline to enhance its capabilities."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "type": "SUPPORTED_BY",
+      "reason": "Windsurf supported by Continue to enhance its capabilities."
+    },
+    {
+      "source": "08a4bd13-591f-454e-b064-8cd740d27614",
+      "target": "7994d8ed-635d-4463-bf1a-ccc1f44e91ab",
+      "type": "USES",
+      "reason": "Redis uses Together AI to enhance its capabilities."
+    },
+    {
+      "source": "8e3988a3-66c2-47c0-b791-132f606c88c9",
+      "target": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "type": "INTEGRATES_WITH",
+      "reason": "Mixtral 8x7B integrates with Whisper to enhance its capabilities."
+    },
+    {
+      "source": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "target": "da85b05c-b134-4a37-8c5f-3e72e11c6a2b",
+      "type": "DEPENDS_ON",
+      "reason": "MongoDB depends on Gemini 1.5 Flash to enhance its capabilities."
+    },
+    {
+      "source": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "target": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "type": "USES",
+      "reason": "Bolt.new uses Claude to enhance its capabilities."
+    },
+    {
+      "source": "59a9fd47-f13f-4415-8ded-07499c3d8cfe",
+      "target": "e543e45a-6656-428e-a4f3-dcd1b42a6fa4",
+      "type": "USES",
+      "reason": "Notion uses Make to enhance its capabilities."
+    },
+    {
+      "source": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "target": "68983ce9-f89e-492a-abc4-5ac75611d85e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Weaviate integrates with Slack API to enhance its capabilities."
+    },
+    {
+      "source": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "target": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "type": "SUPPORTED_BY",
+      "reason": "GraphQL supported by Cursor to enhance its capabilities."
+    },
+    {
+      "source": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "target": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "type": "SUPPORTED_BY",
+      "reason": "Chroma supported by MCP (Model Context Protocol) to enhance its capabilities."
+    },
+    {
+      "source": "d9d6ae05-a20f-44e1-98d8-b91e80181a4f",
+      "target": "750918f9-eaaa-455c-93aa-2ede78086a25",
+      "type": "INTEGRATES_WITH",
+      "reason": "Slack integrates with Superhuman to enhance its capabilities."
+    },
+    {
+      "source": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "target": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "type": "USES",
+      "reason": "Cohere uses Slack Integration to enhance its capabilities."
+    },
+    {
+      "source": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "target": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "type": "INTEGRATES_WITH",
+      "reason": "Lovable integrates with Express to enhance its capabilities."
+    },
+    {
+      "source": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "target": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "type": "CONNECTS_TO",
+      "reason": "Hugging Face connects to Vercel to enhance its capabilities."
+    },
+    {
+      "source": "42b5b6bd-5530-463d-a4f9-22b8f3c99832",
+      "target": "8e3988a3-66c2-47c0-b791-132f606c88c9",
+      "type": "USES",
+      "reason": "Mem uses Mixtral 8x7B to enhance its capabilities."
+    },
+    {
+      "source": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "target": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "type": "DEPENDS_ON",
+      "reason": "Atlassian depends on Notion AI to enhance its capabilities."
+    },
+    {
+      "source": "78a39c85-7532-4c6e-a89a-03f05f8f85d3",
+      "target": "62ee7598-266f-494b-aa50-aa905d90d8fc",
+      "type": "DEPENDS_ON",
+      "reason": "Pinecone depends on Supabase to enhance its capabilities."
+    },
+    {
+      "source": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "target": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "type": "SUPPORTED_BY",
+      "reason": "Atlassian supported by Google to enhance its capabilities."
+    },
+    {
+      "source": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "target": "5528b810-4d25-45fe-88b7-1e6186fc9c2b",
+      "type": "DEPENDS_ON",
+      "reason": "GPT-4o depends on LangChain to enhance its capabilities."
+    },
+    {
+      "source": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "target": "0b4dbdd1-1de4-4964-a338-d11e1b502b76",
+      "type": "USES",
+      "reason": "Runpod uses Cohere API to enhance its capabilities."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "type": "USES",
+      "reason": "Cursor uses Modal to enhance its capabilities."
+    },
+    {
+      "source": "6768b699-ae99-41a4-a906-901f6f724afe",
+      "target": "78a39c85-7532-4c6e-a89a-03f05f8f85d3",
+      "type": "USES",
+      "reason": "Hugging Face Inference API uses Pinecone to enhance its capabilities."
+    },
+    {
+      "source": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "target": "d76a3cfa-aa18-4832-937c-6a7f88c888f3",
+      "type": "INTEGRATES_WITH",
+      "reason": "Stripe Webhooks integrates with Figma to enhance its capabilities."
+    },
+    {
+      "source": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "target": "16bae620-0150-4a91-b419-e7a9bb303378",
+      "type": "INTEGRATES_WITH",
+      "reason": "Gemini integrates with Database to enhance its capabilities."
+    },
+    {
+      "source": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "target": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "type": "INTEGRATES_WITH",
+      "reason": "Productivity integrates with Chroma to enhance its capabilities."
+    },
+    {
+      "source": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "target": "e0f486ae-9ce8-4eb6-a034-1a10bdcddad2",
+      "type": "SUPPORTED_BY",
+      "reason": "Gemini 1.5 Pro supported by Cloud Infrastructure to enhance its capabilities."
+    },
+    {
+      "source": "95a1f371-1181-44a5-8de9-caa69023a1c5",
+      "target": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "type": "DEPENDS_ON",
+      "reason": "OpenAI API depends on Voice/Audio to enhance its capabilities."
+    },
+    {
+      "source": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "target": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "type": "USES",
+      "reason": "Modal uses Perplexity to enhance its capabilities."
+    },
+    {
+      "source": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "target": "59821f1f-f084-4cb0-b327-80733348f8c5",
+      "type": "USES",
+      "reason": "Gemma 7B uses Codeium to enhance its capabilities."
+    },
+    {
+      "source": "3946b287-faaa-4975-97ba-9a52bf65aae8",
+      "target": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "type": "INTEGRATES_WITH",
+      "reason": "Vue integrates with GitHub to enhance its capabilities."
+    },
+    {
+      "source": "ee65a024-8678-4bb2-878f-6f67db8274da",
+      "target": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "type": "USES",
+      "reason": "Perplexity API uses Modal to enhance its capabilities."
+    },
+    {
+      "source": "31d60832-67b6-4be9-9355-7f908f465377",
+      "target": "3946b287-faaa-4975-97ba-9a52bf65aae8",
+      "type": "USES",
+      "reason": "Claude 3.5 Sonnet uses Vue to enhance its capabilities."
+    },
+    {
+      "source": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "target": "3946b287-faaa-4975-97ba-9a52bf65aae8",
+      "type": "INTEGRATES_WITH",
+      "reason": "Baseten integrates with Vue to enhance its capabilities."
+    },
+    {
+      "source": "d0c4d815-1ab5-4508-8de8-abbe9b31a247",
+      "target": "42b5b6bd-5530-463d-a4f9-22b8f3c99832",
+      "type": "DEPENDS_ON",
+      "reason": "Microsoft depends on Mem to enhance its capabilities."
+    },
+    {
+      "source": "c7ae54cd-8013-4b8c-94e8-ac2cb27688f5",
+      "target": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "type": "CONNECTS_TO",
+      "reason": "LlamaIndex connects to Datadog to enhance its capabilities."
+    },
+    {
+      "source": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "target": "d5f430b4-9f10-4fda-b1d8-b127a8e6fd37",
+      "type": "SUPPORTED_BY",
+      "reason": "Cloudflare AI supported by Notion Slack Bot to enhance its capabilities."
+    },
+    {
+      "source": "cceecda6-1ae0-478e-8b6d-9864207d3f37",
+      "target": "14edd779-1987-4d4d-b664-14442abe4c84",
+      "type": "DEPENDS_ON",
+      "reason": "Image Generation depends on Cloudflare to enhance its capabilities."
+    },
+    {
+      "source": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "target": "11cb3837-9017-4ada-b300-c9967e28b02e",
+      "type": "CONNECTS_TO",
+      "reason": "Anthropic API connects to Elastic to enhance its capabilities."
+    },
+    {
+      "source": "e543e45a-6656-428e-a4f3-dcd1b42a6fa4",
+      "target": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "type": "SUPPORTED_BY",
+      "reason": "Make supported by Docker to enhance its capabilities."
+    },
+    {
+      "source": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "target": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "type": "USES",
+      "reason": "OAuth2 uses Gemini to enhance its capabilities."
+    },
+    {
+      "source": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "target": "d608e18d-35bb-4a04-9350-00342ef23a8f",
+      "type": "USES",
+      "reason": "Google uses Stable Diffusion 3 to enhance its capabilities."
+    },
+    {
+      "source": "974ebde8-3240-4f17-807d-6560b1dde23b",
+      "target": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "type": "INTEGRATES_WITH",
+      "reason": "Midjourney integrates with Weaviate to enhance its capabilities."
+    },
+    {
+      "source": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "target": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "type": "USES",
+      "reason": "Runpod uses Whisper to enhance its capabilities."
+    },
+    {
+      "source": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "target": "dd7c0bf2-437f-4133-85a1-8b99873540e3",
+      "type": "CONNECTS_TO",
+      "reason": "Anthropic connects to TensorFlow to enhance its capabilities."
+    },
+    {
+      "source": "b2d47a01-4b06-49b0-bf32-2ff8c938a77c",
+      "target": "6e320e9c-5e20-4b80-ab11-22e73e0b8075",
+      "type": "INTEGRATES_WITH",
+      "reason": "Groq integrates with TTS-1 to enhance its capabilities."
+    },
+    {
+      "source": "543faca7-a64f-4ac6-beff-9244fcefdaea",
+      "target": "de4aa26c-2737-4c60-9c49-0b8c98adda42",
+      "type": "INTEGRATES_WITH",
+      "reason": "Design integrates with Agent to enhance its capabilities."
+    },
+    {
+      "source": "b42f33cf-51a0-4432-ab89-c9ba01193b1c",
+      "target": "8e4ee55b-a269-4247-b2ca-8efc8722e69e",
+      "type": "USES",
+      "reason": "Zed uses Gemini to enhance its capabilities."
+    },
+    {
+      "source": "d608e18d-35bb-4a04-9350-00342ef23a8f",
+      "target": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "type": "INTEGRATES_WITH",
+      "reason": "Stable Diffusion 3 integrates with RedisVL to enhance its capabilities."
+    },
+    {
+      "source": "a72c8679-387f-4764-a23e-14cb046aac19",
+      "target": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "type": "SUPPORTED_BY",
+      "reason": "GPT-3.5 supported by Express to enhance its capabilities."
+    },
+    {
+      "source": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "target": "d919559b-44cb-44e8-9586-285e54df5356",
+      "type": "DEPENDS_ON",
+      "reason": "Docker depends on Developer Tools to enhance its capabilities."
+    },
+    {
+      "source": "d608e18d-35bb-4a04-9350-00342ef23a8f",
+      "target": "ecc115fe-b054-4936-95dc-17e7f2de1fee",
+      "type": "CONNECTS_TO",
+      "reason": "Stable Diffusion 3 connects to Linear API to enhance its capabilities."
+    },
+    {
+      "source": "79be377f-b7e4-4a66-a87d-d413c27290ec",
+      "target": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "type": "INTEGRATES_WITH",
+      "reason": "Linear GitHub Sync integrates with OAuth2 to enhance its capabilities."
+    },
+    {
+      "source": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "target": "dd7c0bf2-437f-4133-85a1-8b99873540e3",
+      "type": "DEPENDS_ON",
+      "reason": "Svelte depends on TensorFlow to enhance its capabilities."
+    },
+    {
+      "source": "79be377f-b7e4-4a66-a87d-d413c27290ec",
+      "target": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "type": "SUPPORTED_BY",
+      "reason": "Linear GitHub Sync supported by NVIDIA to enhance its capabilities."
+    },
+    {
+      "source": "a7619702-1757-4484-8863-0fe164b85166",
+      "target": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "type": "DEPENDS_ON",
+      "reason": "Code Assistant depends on Neovim to enhance its capabilities."
+    },
+    {
+      "source": "20d0bebf-638e-46e7-a466-9c55e7dbb804",
+      "target": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "type": "SUPPORTED_BY",
+      "reason": "Linear supported by Docker to enhance its capabilities."
+    },
+    {
+      "source": "bc329a70-b6c6-4b51-a529-55ce13c75995",
+      "target": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "type": "CONNECTS_TO",
+      "reason": "Vercel Integrations connects to Cohere to enhance its capabilities."
+    },
+    {
+      "source": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "target": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "type": "INTEGRATES_WITH",
+      "reason": "Voice/Audio integrates with DALL-E 3 to enhance its capabilities."
+    },
+    {
+      "source": "a0b35e52-dfb6-45e6-9044-eafe095927fb",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "SUPPORTED_BY",
+      "reason": "Google Cloud Vertex AI supported by GPT-4o to enhance its capabilities."
+    },
+    {
+      "source": "6e320e9c-5e20-4b80-ab11-22e73e0b8075",
+      "target": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "type": "SUPPORTED_BY",
+      "reason": "TTS-1 supported by Runpod to enhance its capabilities."
+    },
+    {
+      "source": "2c9ba68f-e7e9-4725-b33d-e1588c278a6a",
+      "target": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "type": "INTEGRATES_WITH",
+      "reason": "Elasticsearch integrates with StackBlitz to enhance its capabilities."
+    },
+    {
+      "source": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "target": "0b4dbdd1-1de4-4964-a338-d11e1b502b76",
+      "type": "SUPPORTED_BY",
+      "reason": "Devin supported by Cohere API to enhance its capabilities."
+    },
+    {
+      "source": "43f458ab-1dcb-4ec0-9d62-5a3e34d527cf",
+      "target": "a0cc6ee9-4a78-42a0-a5c3-d149f2d9757e",
+      "type": "CONNECTS_TO",
+      "reason": "Llama 3 8B connects to Fireworks AI to enhance its capabilities."
+    },
+    {
+      "source": "8b29b7fa-2d5d-479c-998c-84f076a72d38",
+      "target": "59821f1f-f084-4cb0-b327-80733348f8c5",
+      "type": "USES",
+      "reason": "Datadog uses Codeium to enhance its capabilities."
+    },
+    {
+      "source": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "INTEGRATES_WITH",
+      "reason": "Anthropic integrates with GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "target": "8de1dabc-c360-448e-a870-0aba94bf1d0c",
+      "type": "DEPENDS_ON",
+      "reason": "GitHub Copilot depends on Milvus to enhance its capabilities."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "43f458ab-1dcb-4ec0-9d62-5a3e34d527cf",
+      "type": "CONNECTS_TO",
+      "reason": "Perplexity connects to Llama 3 8B to enhance its capabilities."
+    },
+    {
+      "source": "68983ce9-f89e-492a-abc4-5ac75611d85e",
+      "target": "37310e9d-dae3-4417-8bd4-76a5b784a4d8",
+      "type": "INTEGRATES_WITH",
+      "reason": "Slack API integrates with ActivityPub to enhance its capabilities."
+    },
+    {
+      "source": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "target": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "type": "INTEGRATES_WITH",
+      "reason": "Svelte integrates with Claude 3 Opus to enhance its capabilities."
+    },
+    {
+      "source": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "target": "20d0bebf-638e-46e7-a466-9c55e7dbb804",
+      "type": "CONNECTS_TO",
+      "reason": "Phind-34B connects to Linear to enhance its capabilities."
+    },
+    {
+      "source": "0b4dbdd1-1de4-4964-a338-d11e1b502b76",
+      "target": "6a37f4d4-6658-4399-986e-1406e822f750",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cohere API integrates with WebStorm to enhance its capabilities."
+    },
+    {
+      "source": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "target": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "type": "INTEGRATES_WITH",
+      "reason": "Mistral integrates with v0 to enhance its capabilities."
+    },
+    {
+      "source": "62ee7598-266f-494b-aa50-aa905d90d8fc",
+      "target": "d5f430b4-9f10-4fda-b1d8-b127a8e6fd37",
+      "type": "INTEGRATES_WITH",
+      "reason": "Supabase integrates with Notion Slack Bot to enhance its capabilities."
+    },
+    {
+      "source": "bc329a70-b6c6-4b51-a529-55ce13c75995",
+      "target": "0bf229ae-efd3-4de7-9748-d160f27e4fab",
+      "type": "SUPPORTED_BY",
+      "reason": "Vercel Integrations supported by FastAPI to enhance its capabilities."
+    },
+    {
+      "source": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "target": "5950ec60-7a91-463e-99d8-53a9ea533c2e",
+      "type": "DEPENDS_ON",
+      "reason": "Claude 3 Opus depends on Replicate to enhance its capabilities."
+    },
+    {
+      "source": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "target": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "type": "SUPPORTED_BY",
+      "reason": "Runpod supported by Continue to enhance its capabilities."
+    },
+    {
+      "source": "f706d323-99e8-44db-ab80-06cc8aab9228",
+      "target": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "type": "CONNECTS_TO",
+      "reason": "Hugging Face Transformers connects to Docker to enhance its capabilities."
+    },
+    {
+      "source": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "target": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cloudflare AI integrates with Hugging Face to enhance its capabilities."
+    },
+    {
+      "source": "32c2c008-9a4e-49a2-9a2e-9f9cdde09d4f",
+      "target": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "type": "DEPENDS_ON",
+      "reason": "GitHub Actions depends on Fleet to enhance its capabilities."
+    },
+    {
+      "source": "a72c8679-387f-4764-a23e-14cb046aac19",
+      "target": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "type": "USES",
+      "reason": "GPT-3.5 uses Notion API to enhance its capabilities."
+    },
+    {
+      "source": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "target": "d5f430b4-9f10-4fda-b1d8-b127a8e6fd37",
+      "type": "SUPPORTED_BY",
+      "reason": "Svelte supported by Notion Slack Bot to enhance its capabilities."
+    },
+    {
+      "source": "543faca7-a64f-4ac6-beff-9244fcefdaea",
+      "target": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "type": "CONNECTS_TO",
+      "reason": "Design connects to VS Code to enhance its capabilities."
+    },
+    {
+      "source": "b42f33cf-51a0-4432-ab89-c9ba01193b1c",
+      "target": "dd7c0bf2-437f-4133-85a1-8b99873540e3",
+      "type": "USES",
+      "reason": "Zed uses TensorFlow to enhance its capabilities."
+    },
+    {
+      "source": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "target": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "type": "INTEGRATES_WITH",
+      "reason": "Gemma 7B integrates with Claude to enhance its capabilities."
+    },
+    {
+      "source": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "target": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "type": "SUPPORTED_BY",
+      "reason": "RedisVL supported by Gemma 7B to enhance its capabilities."
+    },
+    {
+      "source": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "target": "bb1335cc-077a-44ad-b5ba-188538a723e2",
+      "type": "USES",
+      "reason": "Stripe API uses REST to enhance its capabilities."
+    },
+    {
+      "source": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "target": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "type": "DEPENDS_ON",
+      "reason": "v0 depends on Bolt.new to enhance its capabilities."
+    },
+    {
+      "source": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "target": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "type": "INTEGRATES_WITH",
+      "reason": "Modal integrates with Devin to enhance its capabilities."
+    },
+    {
+      "source": "7d1a0f39-4791-4be4-8882-ec692a14b6d3",
+      "target": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "type": "USES",
+      "reason": "Command R+ uses MongoDB to enhance its capabilities."
+    },
+    {
+      "source": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "target": "8de1dabc-c360-448e-a870-0aba94bf1d0c",
+      "type": "DEPENDS_ON",
+      "reason": "NVIDIA depends on Milvus to enhance its capabilities."
+    },
+    {
+      "source": "a0b35e52-dfb6-45e6-9044-eafe095927fb",
+      "target": "82f1721a-6148-4a90-9842-5e32e5a8a24e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Google Cloud Vertex AI integrates with OpenID Connect to enhance its capabilities."
+    },
+    {
+      "source": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "target": "c252f9ed-5ac9-4a38-a5f8-3160bd1ce0de",
+      "type": "CONNECTS_TO",
+      "reason": "Hugging Face connects to Notion API to enhance its capabilities."
+    },
+    {
+      "source": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "target": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "type": "CONNECTS_TO",
+      "reason": "Docker connects to Notion AI to enhance its capabilities."
+    },
+    {
+      "source": "a16b450b-80da-4cad-9e02-a53b258b1093",
+      "target": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "type": "DEPENDS_ON",
+      "reason": "PyCharm depends on OAuth2 to enhance its capabilities."
+    },
+    {
+      "source": "6e320e9c-5e20-4b80-ab11-22e73e0b8075",
+      "target": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "type": "DEPENDS_ON",
+      "reason": "TTS-1 depends on Cursor to enhance its capabilities."
+    },
+    {
+      "source": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "target": "79be377f-b7e4-4a66-a87d-d413c27290ec",
+      "type": "USES",
+      "reason": "AWS Bedrock uses Linear GitHub Sync to enhance its capabilities."
+    },
+    {
+      "source": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "target": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "type": "INTEGRATES_WITH",
+      "reason": "Stripe Webhooks integrates with Lovable to enhance its capabilities."
+    },
+    {
+      "source": "20d0bebf-638e-46e7-a466-9c55e7dbb804",
+      "target": "4295eea3-8a98-45f1-9ecb-868c6b1a6fa9",
+      "type": "SUPPORTED_BY",
+      "reason": "Linear supported by PyTorch to enhance its capabilities."
+    },
+    {
+      "source": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "target": "82f1721a-6148-4a90-9842-5e32e5a8a24e",
+      "type": "DEPENDS_ON",
+      "reason": "Stripe Webhooks depends on OpenID Connect to enhance its capabilities."
+    },
+    {
+      "source": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "target": "83a42850-c60d-46be-b181-746a0c4c01fb",
+      "type": "USES",
+      "reason": "Whisper uses pgvector to enhance its capabilities."
+    },
+    {
+      "source": "62d2ffc7-0d48-460f-80bd-39b708d9b150",
+      "target": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "type": "INTEGRATES_WITH",
+      "reason": "Glean integrates with MCP (Model Context Protocol) to enhance its capabilities."
+    },
+    {
+      "source": "a0cc6ee9-4a78-42a0-a5c3-d149f2d9757e",
+      "target": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "type": "SUPPORTED_BY",
+      "reason": "Fireworks AI supported by MongoDB to enhance its capabilities."
+    },
+    {
+      "source": "72bfb90a-6416-4a3f-b7a8-bbd338c98834",
+      "target": "2fd283d3-d0ed-4138-8851-2dc66e9c77bd",
+      "type": "DEPENDS_ON",
+      "reason": "Arc Browser depends on LLM to enhance its capabilities."
+    },
+    {
+      "source": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "target": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "type": "INTEGRATES_WITH",
+      "reason": "Stripe Webhooks integrates with MCP (Model Context Protocol) to enhance its capabilities."
+    },
+    {
+      "source": "ee65a024-8678-4bb2-878f-6f67db8274da",
+      "target": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "type": "SUPPORTED_BY",
+      "reason": "Perplexity API supported by StackBlitz to enhance its capabilities."
+    },
+    {
+      "source": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "target": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "type": "INTEGRATES_WITH",
+      "reason": "Vercel integrates with Docker to enhance its capabilities."
+    },
+    {
+      "source": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "target": "8823b4fc-afd8-4274-8e90-da390e583732",
+      "type": "DEPENDS_ON",
+      "reason": "Slack Integration depends on gRPC to enhance its capabilities."
+    },
+    {
+      "source": "6b9c31c3-0082-4bbe-b38a-f1de0504c986",
+      "target": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "type": "USES",
+      "reason": "Figma AI uses Django to enhance its capabilities."
+    },
+    {
+      "source": "79be377f-b7e4-4a66-a87d-d413c27290ec",
+      "target": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "type": "SUPPORTED_BY",
+      "reason": "Linear GitHub Sync supported by MongoDB to enhance its capabilities."
+    },
+    {
+      "source": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "target": "4f98737b-1ccf-4a20-a46d-bffe630056ce",
+      "type": "INTEGRATES_WITH",
+      "reason": "Slack Integration integrates with Qdrant to enhance its capabilities."
+    },
+    {
+      "source": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "target": "59a9fd47-f13f-4415-8ded-07499c3d8cfe",
+      "type": "DEPENDS_ON",
+      "reason": "Slack Integration depends on Notion to enhance its capabilities."
+    },
+    {
+      "source": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "target": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "type": "SUPPORTED_BY",
+      "reason": "Cloudflare AI supported by Devin to enhance its capabilities."
+    },
+    {
+      "source": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "target": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "type": "INTEGRATES_WITH",
+      "reason": "Hugging Face integrates with Gemini API to enhance its capabilities."
+    },
+    {
+      "source": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "target": "6768b699-ae99-41a4-a906-901f6f724afe",
+      "type": "CONNECTS_TO",
+      "reason": "RedisVL connects to Hugging Face Inference API to enhance its capabilities."
+    },
+    {
+      "source": "bb1335cc-077a-44ad-b5ba-188538a723e2",
+      "target": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "type": "DEPENDS_ON",
+      "reason": "REST depends on Productivity to enhance its capabilities."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "6a37f4d4-6658-4399-986e-1406e822f750",
+      "type": "INTEGRATES_WITH",
+      "reason": "Perplexity integrates with WebStorm to enhance its capabilities."
+    },
+    {
+      "source": "6768b699-ae99-41a4-a906-901f6f724afe",
+      "target": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "type": "INTEGRATES_WITH",
+      "reason": "Hugging Face Inference API integrates with Cohere to enhance its capabilities."
+    },
+    {
+      "source": "14edd779-1987-4d4d-b664-14442abe4c84",
+      "target": "95a1f371-1181-44a5-8de9-caa69023a1c5",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cloudflare integrates with OpenAI API to enhance its capabilities."
+    },
+    {
+      "source": "44384c99-6544-4ebd-bb8a-2b82d3820d3b",
+      "target": "4295eea3-8a98-45f1-9ecb-868c6b1a6fa9",
+      "type": "DEPENDS_ON",
+      "reason": "Cloudflare AI depends on PyTorch to enhance its capabilities."
+    },
+    {
+      "source": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "target": "5b75818b-1709-4a0d-99f5-abe6a4fa506d",
+      "type": "DEPENDS_ON",
+      "reason": "Gemini API depends on StackBlitz to enhance its capabilities."
+    },
+    {
+      "source": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "target": "d0c4d815-1ab5-4508-8de8-abbe9b31a247",
+      "type": "INTEGRATES_WITH",
+      "reason": "Productivity integrates with Microsoft to enhance its capabilities."
+    },
+    {
+      "source": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "target": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "type": "DEPENDS_ON",
+      "reason": "Fleet depends on Svelte to enhance its capabilities."
+    },
+    {
+      "source": "bb1335cc-077a-44ad-b5ba-188538a723e2",
+      "target": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "type": "USES",
+      "reason": "REST uses AWS Bedrock to enhance its capabilities."
+    },
+    {
+      "source": "5950ec60-7a91-463e-99d8-53a9ea533c2e",
+      "target": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "type": "SUPPORTED_BY",
+      "reason": "Replicate supported by Docker to enhance its capabilities."
+    },
+    {
+      "source": "8823b4fc-afd8-4274-8e90-da390e583732",
+      "target": "febe7e31-1c6f-4837-b819-e86b8488cee1",
+      "type": "USES",
+      "reason": "gRPC uses WebRTC to enhance its capabilities."
+    },
+    {
+      "source": "697d1d13-1ae8-44aa-ad88-f5a2ab064c0f",
+      "target": "f970575e-8ef4-4ad7-bca1-3e5150cd47eb",
+      "type": "SUPPORTED_BY",
+      "reason": "Whisper supported by AMD to enhance its capabilities."
+    },
+    {
+      "source": "78a39c85-7532-4c6e-a89a-03f05f8f85d3",
+      "target": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "type": "CONNECTS_TO",
+      "reason": "Pinecone connects to Azure AI to enhance its capabilities."
+    },
+    {
+      "source": "a019d51f-6763-44f3-abbe-07dd255821b1",
+      "target": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "type": "USES",
+      "reason": "GitHub uses Mistral Large to enhance its capabilities."
+    },
+    {
+      "source": "d2978801-fa80-438e-88fb-ba888e97441f",
+      "target": "79be377f-b7e4-4a66-a87d-d413c27290ec",
+      "type": "USES",
+      "reason": "Warp uses Linear GitHub Sync to enhance its capabilities."
+    },
+    {
+      "source": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "target": "5528b810-4d25-45fe-88b7-1e6186fc9c2b",
+      "type": "CONNECTS_TO",
+      "reason": "Django connects to LangChain to enhance its capabilities."
+    },
+    {
+      "source": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "target": "6a37f4d4-6658-4399-986e-1406e822f750",
+      "type": "SUPPORTED_BY",
+      "reason": "Fleet supported by WebStorm to enhance its capabilities."
+    },
+    {
+      "source": "2c9ba68f-e7e9-4725-b33d-e1588c278a6a",
+      "target": "6a37f4d4-6658-4399-986e-1406e822f750",
+      "type": "USES",
+      "reason": "Elasticsearch uses WebStorm to enhance its capabilities."
+    },
+    {
+      "source": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "target": "a0cc6ee9-4a78-42a0-a5c3-d149f2d9757e",
+      "type": "SUPPORTED_BY",
+      "reason": "Stripe API supported by Fireworks AI to enhance its capabilities."
+    },
+    {
+      "source": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "target": "72bfb90a-6416-4a3f-b7a8-bbd338c98834",
+      "type": "SUPPORTED_BY",
+      "reason": "AWS Bedrock supported by Arc Browser to enhance its capabilities."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "7c047f1f-0213-40d7-bae1-04f3b1a1b297",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cursor integrates with RedisVL to enhance its capabilities."
+    },
+    {
+      "source": "543faca7-a64f-4ac6-beff-9244fcefdaea",
+      "target": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "type": "DEPENDS_ON",
+      "reason": "Design depends on Anthropic API to enhance its capabilities."
+    },
+    {
+      "source": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "target": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "type": "SUPPORTED_BY",
+      "reason": "Baseten supported by Weaviate to enhance its capabilities."
+    },
+    {
+      "source": "134a6d7c-e6e3-4953-9701-25ff5328f7fa",
+      "target": "d0c4d815-1ab5-4508-8de8-abbe9b31a247",
+      "type": "SUPPORTED_BY",
+      "reason": "WebSocket supported by Microsoft to enhance its capabilities."
+    },
+    {
+      "source": "a47e527f-09bb-453e-a9a7-bc5b26444345",
+      "target": "c5993652-8a2c-40e8-bdcf-add6e33e2b4a",
+      "type": "DEPENDS_ON",
+      "reason": "React depends on DALL-E 3 to enhance its capabilities."
+    },
+    {
+      "source": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "target": "8e1d9297-e71a-4bff-b5ea-826f4c0d1446",
+      "type": "INTEGRATES_WITH",
+      "reason": "Neovim integrates with IntelliJ IDEA to enhance its capabilities."
+    },
+    {
+      "source": "31d60832-67b6-4be9-9355-7f908f465377",
+      "target": "750918f9-eaaa-455c-93aa-2ede78086a25",
+      "type": "USES",
+      "reason": "Claude 3.5 Sonnet uses Superhuman to enhance its capabilities."
+    },
+    {
+      "source": "d5f430b4-9f10-4fda-b1d8-b127a8e6fd37",
+      "target": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "type": "USES",
+      "reason": "Notion Slack Bot uses Gemini API to enhance its capabilities."
+    },
+    {
+      "source": "f706d323-99e8-44db-ab80-06cc8aab9228",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "SUPPORTED_BY",
+      "reason": "Hugging Face Transformers supported by Code Assistant to enhance its capabilities."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "type": "USES",
+      "reason": "Cursor uses Atlassian to enhance its capabilities."
+    },
+    {
+      "source": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "target": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "type": "SUPPORTED_BY",
+      "reason": "Gemini API supported by Productivity to enhance its capabilities."
+    },
+    {
+      "source": "febe7e31-1c6f-4837-b819-e86b8488cee1",
+      "target": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "type": "CONNECTS_TO",
+      "reason": "WebRTC connects to Anthropic API to enhance its capabilities."
+    },
+    {
+      "source": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "target": "f706d323-99e8-44db-ab80-06cc8aab9228",
+      "type": "INTEGRATES_WITH",
+      "reason": "Notion AI integrates with Hugging Face Transformers to enhance its capabilities."
+    },
+    {
+      "source": "72bfb90a-6416-4a3f-b7a8-bbd338c98834",
+      "target": "7d1a0f39-4791-4be4-8882-ec692a14b6d3",
+      "type": "CONNECTS_TO",
+      "reason": "Arc Browser connects to Command R+ to enhance its capabilities."
+    },
+    {
+      "source": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "target": "6768b699-ae99-41a4-a906-901f6f724afe",
+      "type": "DEPENDS_ON",
+      "reason": "Svelte depends on Hugging Face Inference API to enhance its capabilities."
+    },
+    {
+      "source": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "target": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "type": "DEPENDS_ON",
+      "reason": "Mistral Large depends on Runpod to enhance its capabilities."
+    },
+    {
+      "source": "8de1dabc-c360-448e-a870-0aba94bf1d0c",
+      "target": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "type": "INTEGRATES_WITH",
+      "reason": "Milvus integrates with Neovim to enhance its capabilities."
+    },
+    {
+      "source": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "target": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "type": "USES",
+      "reason": "GitHub Copilot uses Midjourney V6 to enhance its capabilities."
+    },
+    {
+      "source": "68983ce9-f89e-492a-abc4-5ac75611d85e",
+      "target": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "type": "SUPPORTED_BY",
+      "reason": "Slack API supported by Chroma to enhance its capabilities."
+    },
+    {
+      "source": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "target": "bb1335cc-077a-44ad-b5ba-188538a723e2",
+      "type": "DEPENDS_ON",
+      "reason": "Stripe Webhooks depends on REST to enhance its capabilities."
+    },
+    {
+      "source": "5950ec60-7a91-463e-99d8-53a9ea533c2e",
+      "target": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "type": "USES",
+      "reason": "Replicate uses Claude to enhance its capabilities."
+    },
+    {
+      "source": "91188cb0-864d-47aa-9836-49cefc091d70",
+      "target": "8823b4fc-afd8-4274-8e90-da390e583732",
+      "type": "DEPENDS_ON",
+      "reason": "Svelte depends on gRPC to enhance its capabilities."
+    },
+    {
+      "source": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "target": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "type": "SUPPORTED_BY",
+      "reason": "Chroma supported by Gemma 7B to enhance its capabilities."
+    },
+    {
+      "source": "37310e9d-dae3-4417-8bd4-76a5b784a4d8",
+      "target": "62ee7598-266f-494b-aa50-aa905d90d8fc",
+      "type": "DEPENDS_ON",
+      "reason": "ActivityPub depends on Supabase to enhance its capabilities."
+    },
+    {
+      "source": "cf2b9386-6ea6-42c5-8c73-54d1b41475b9",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "INTEGRATES_WITH",
+      "reason": "MongoDB integrates with Code Assistant to enhance its capabilities."
+    },
+    {
+      "source": "f706d323-99e8-44db-ab80-06cc8aab9228",
+      "target": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Hugging Face Transformers integrates with Django to enhance its capabilities."
+    },
+    {
+      "source": "8e3988a3-66c2-47c0-b791-132f606c88c9",
+      "target": "43f458ab-1dcb-4ec0-9d62-5a3e34d527cf",
+      "type": "INTEGRATES_WITH",
+      "reason": "Mixtral 8x7B integrates with Llama 3 8B to enhance its capabilities."
+    },
+    {
+      "source": "180222a9-b1c3-4c8e-8a35-d226d8d8d12b",
+      "target": "68983ce9-f89e-492a-abc4-5ac75611d85e",
+      "type": "CONNECTS_TO",
+      "reason": "Tailwind CSS connects to Slack API to enhance its capabilities."
+    },
+    {
+      "source": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "target": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "type": "CONNECTS_TO",
+      "reason": "Phind-34B connects to Anthropic API to enhance its capabilities."
+    },
+    {
+      "source": "d37aa9e2-fbbf-45bd-a087-4a6644c5a5a4",
+      "target": "c7ae54cd-8013-4b8c-94e8-ac2cb27688f5",
+      "type": "DEPENDS_ON",
+      "reason": "Neovim depends on LlamaIndex to enhance its capabilities."
+    },
+    {
+      "source": "fec8356e-4a63-41fb-8403-342d715bb9d8",
+      "target": "dcd0af7e-9b0f-4443-a303-a23ba3a249d9",
+      "type": "SUPPORTED_BY",
+      "reason": "Perplexity supported by Llama 3 70B to enhance its capabilities."
+    },
+    {
+      "source": "1f198510-a9b6-412c-af55-53361ae0c9d7",
+      "target": "ac3e28dc-8204-432b-8c5a-550abb1b66e3",
+      "type": "USES",
+      "reason": "Devin uses Gemini API to enhance its capabilities."
+    },
+    {
+      "source": "2fd283d3-d0ed-4138-8851-2dc66e9c77bd",
+      "target": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "type": "USES",
+      "reason": "LLM uses Stripe API to enhance its capabilities."
+    },
+    {
+      "source": "42b5b6bd-5530-463d-a4f9-22b8f3c99832",
+      "target": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "type": "SUPPORTED_BY",
+      "reason": "Mem supported by Gemini 1.5 Pro to enhance its capabilities."
+    },
+    {
+      "source": "94141c69-5f20-4cb7-af48-8ca5f60d7a5c",
+      "target": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "type": "INTEGRATES_WITH",
+      "reason": "Fleet integrates with Azure AI to enhance its capabilities."
+    },
+    {
+      "source": "08a4bd13-591f-454e-b064-8cd740d27614",
+      "target": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "type": "CONNECTS_TO",
+      "reason": "Redis connects to Django to enhance its capabilities."
+    },
+    {
+      "source": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "SUPPORTED_BY",
+      "reason": "Mistral Large supported by Code Assistant to enhance its capabilities."
+    },
+    {
+      "source": "bb84f299-d0d6-440c-9644-e49d9da80512",
+      "target": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "type": "INTEGRATES_WITH",
+      "reason": "Discord Webhooks integrates with Chroma to enhance its capabilities."
+    },
+    {
+      "source": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "target": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "type": "CONNECTS_TO",
+      "reason": "Baseten connects to Claude to enhance its capabilities."
+    },
+    {
+      "source": "6ea3064f-0ec4-431b-9280-8d61f6e1474d",
+      "target": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "type": "CONNECTS_TO",
+      "reason": "GitHub API connects to Phind-34B to enhance its capabilities."
+    },
+    {
+      "source": "bc329a70-b6c6-4b51-a529-55ce13c75995",
+      "target": "16bae620-0150-4a91-b419-e7a9bb303378",
+      "type": "CONNECTS_TO",
+      "reason": "Vercel Integrations connects to Database to enhance its capabilities."
+    },
+    {
+      "source": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "target": "82f1721a-6148-4a90-9842-5e32e5a8a24e",
+      "type": "USES",
+      "reason": "OAuth2 uses OpenID Connect to enhance its capabilities."
+    },
+    {
+      "source": "d0670952-32e2-4169-863e-66a2d785861a",
+      "target": "7e3455a4-a98e-4ebc-a281-0cddcad13ac8",
+      "type": "SUPPORTED_BY",
+      "reason": "OpenAI supported by Stripe API to enhance its capabilities."
+    },
+    {
+      "source": "f970575e-8ef4-4ad7-bca1-3e5150cd47eb",
+      "target": "f77d2d7a-f9b4-4278-85c4-0a34b87870f7",
+      "type": "INTEGRATES_WITH",
+      "reason": "AMD integrates with Cohere to enhance its capabilities."
+    },
+    {
+      "source": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "target": "a7619702-1757-4484-8863-0fe164b85166",
+      "type": "INTEGRATES_WITH",
+      "reason": "Claude 3 Opus integrates with Code Assistant to enhance its capabilities."
+    },
+    {
+      "source": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "target": "6b9c31c3-0082-4bbe-b38a-f1de0504c986",
+      "type": "SUPPORTED_BY",
+      "reason": "Azure AI supported by Figma AI to enhance its capabilities."
+    },
+    {
+      "source": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "target": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "type": "CONNECTS_TO",
+      "reason": "Express connects to OAuth2 to enhance its capabilities."
+    },
+    {
+      "source": "2a2244d0-bd71-4504-a333-22d7145cb022",
+      "target": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "type": "USES",
+      "reason": "Runpod uses Mistral Large to enhance its capabilities."
+    },
+    {
+      "source": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "target": "d608e18d-35bb-4a04-9350-00342ef23a8f",
+      "type": "DEPENDS_ON",
+      "reason": "Azure AI depends on Stable Diffusion 3 to enhance its capabilities."
+    },
+    {
+      "source": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "target": "cceecda6-1ae0-478e-8b6d-9864207d3f37",
+      "type": "DEPENDS_ON",
+      "reason": "Phind-34B depends on Image Generation to enhance its capabilities."
+    },
+    {
+      "source": "ecc115fe-b054-4936-95dc-17e7f2de1fee",
+      "target": "62ee7598-266f-494b-aa50-aa905d90d8fc",
+      "type": "USES",
+      "reason": "Linear API uses Supabase to enhance its capabilities."
+    },
+    {
+      "source": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "target": "7599e625-edcf-487c-9291-db123ac2cf7a",
+      "type": "INTEGRATES_WITH",
+      "reason": "Docker integrates with Stripe Webhooks to enhance its capabilities."
+    },
+    {
+      "source": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "target": "e543e45a-6656-428e-a4f3-dcd1b42a6fa4",
+      "type": "SUPPORTED_BY",
+      "reason": "Voice/Audio supported by Make to enhance its capabilities."
+    },
+    {
+      "source": "6e320e9c-5e20-4b80-ab11-22e73e0b8075",
+      "target": "14edd779-1987-4d4d-b664-14442abe4c84",
+      "type": "CONNECTS_TO",
+      "reason": "TTS-1 connects to Cloudflare to enhance its capabilities."
+    },
+    {
+      "source": "060ce3aa-d20f-4b90-a0a4-d8ff2cc3d5fe",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "CONNECTS_TO",
+      "reason": "Notion AI connects to GPT-4o to enhance its capabilities."
+    },
+    {
+      "source": "14edd779-1987-4d4d-b664-14442abe4c84",
+      "target": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "type": "INTEGRATES_WITH",
+      "reason": "Cloudflare integrates with Mistral Large to enhance its capabilities."
+    },
+    {
+      "source": "543faca7-a64f-4ac6-beff-9244fcefdaea",
+      "target": "5528b810-4d25-45fe-88b7-1e6186fc9c2b",
+      "type": "INTEGRATES_WITH",
+      "reason": "Design integrates with LangChain to enhance its capabilities."
+    },
+    {
+      "source": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "target": "fb9136fc-bfbd-4a21-9bbd-663b3ff80434",
+      "type": "SUPPORTED_BY",
+      "reason": "Mistral Large supported by v0 to enhance its capabilities."
+    },
+    {
+      "source": "27579379-2e44-4a50-86e5-6f4c70743064",
+      "target": "8e1d9297-e71a-4bff-b5ea-826f4c0d1446",
+      "type": "INTEGRATES_WITH",
+      "reason": "Linear Asks integrates with IntelliJ IDEA to enhance its capabilities."
+    },
+    {
+      "source": "0bf229ae-efd3-4de7-9748-d160f27e4fab",
+      "target": "43f458ab-1dcb-4ec0-9d62-5a3e34d527cf",
+      "type": "SUPPORTED_BY",
+      "reason": "FastAPI supported by Llama 3 8B to enhance its capabilities."
+    },
+    {
+      "source": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "target": "59a9fd47-f13f-4415-8ded-07499c3d8cfe",
+      "type": "DEPENDS_ON",
+      "reason": "Mistral depends on Notion to enhance its capabilities."
+    },
+    {
+      "source": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "target": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "type": "USES",
+      "reason": "Slack Integration uses MCP (Model Context Protocol) to enhance its capabilities."
+    },
+    {
+      "source": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "target": "134a6d7c-e6e3-4953-9701-25ff5328f7fa",
+      "type": "INTEGRATES_WITH",
+      "reason": "Django integrates with WebSocket to enhance its capabilities."
+    },
+    {
+      "source": "a72c8679-387f-4764-a23e-14cb046aac19",
+      "target": "d7b0c508-4446-4c0d-abdd-96474fba1177",
+      "type": "USES",
+      "reason": "GPT-3.5 uses Docker to enhance its capabilities."
+    },
+    {
+      "source": "bb90a95b-7a7a-46c8-bcc4-bf3f86811dd9",
+      "target": "f970575e-8ef4-4ad7-bca1-3e5150cd47eb",
+      "type": "SUPPORTED_BY",
+      "reason": "Mistral Large supported by AMD to enhance its capabilities."
+    },
+    {
+      "source": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "target": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "type": "CONNECTS_TO",
+      "reason": "Cursor connects to Express to enhance its capabilities."
+    },
+    {
+      "source": "8fdab53c-431b-45ad-95c4-e84689c6b459",
+      "target": "180222a9-b1c3-4c8e-8a35-d226d8d8d12b",
+      "type": "DEPENDS_ON",
+      "reason": "GitHub Copilot depends on Tailwind CSS to enhance its capabilities."
+    },
+    {
+      "source": "febe7e31-1c6f-4837-b819-e86b8488cee1",
+      "target": "dd7c0bf2-437f-4133-85a1-8b99873540e3",
+      "type": "CONNECTS_TO",
+      "reason": "WebRTC connects to TensorFlow to enhance its capabilities."
+    },
+    {
+      "source": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "target": "53e9fbb6-91f8-43bc-8a21-a89491289214",
+      "type": "USES",
+      "reason": "Chroma uses Express to enhance its capabilities."
+    },
+    {
+      "source": "72bfb90a-6416-4a3f-b7a8-bbd338c98834",
+      "target": "974ebde8-3240-4f17-807d-6560b1dde23b",
+      "type": "DEPENDS_ON",
+      "reason": "Arc Browser depends on Midjourney to enhance its capabilities."
+    },
+    {
+      "source": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "target": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "type": "CONNECTS_TO",
+      "reason": "Anthropic connects to Chroma to enhance its capabilities."
+    },
+    {
+      "source": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "target": "a16b450b-80da-4cad-9e02-a53b258b1093",
+      "type": "SUPPORTED_BY",
+      "reason": "Baseten supported by PyCharm to enhance its capabilities."
+    },
+    {
+      "source": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "target": "62ee7598-266f-494b-aa50-aa905d90d8fc",
+      "type": "CONNECTS_TO",
+      "reason": "VS Code connects to Supabase to enhance its capabilities."
+    },
+    {
+      "source": "2c9ba68f-e7e9-4725-b33d-e1588c278a6a",
+      "target": "d0c4d815-1ab5-4508-8de8-abbe9b31a247",
+      "type": "USES",
+      "reason": "Elasticsearch uses Microsoft to enhance its capabilities."
+    },
+    {
+      "source": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "target": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "type": "USES",
+      "reason": "Baseten uses Azure AI to enhance its capabilities."
+    },
+    {
+      "source": "36a71a5e-b773-4e25-afb2-d6699ea001f5",
+      "target": "84123b17-52fc-4632-ab13-5ec28607263e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Slack Integration integrates with Gemini 1.5 Pro to enhance its capabilities."
+    },
+    {
+      "source": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "target": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "type": "CONNECTS_TO",
+      "reason": "Modal connects to Chroma to enhance its capabilities."
+    },
+    {
+      "source": "7994d8ed-635d-4463-bf1a-ccc1f44e91ab",
+      "target": "7dea3224-032a-4694-ae51-c02aa867b48e",
+      "type": "SUPPORTED_BY",
+      "reason": "Together AI supported by Cursor to enhance its capabilities."
+    },
+    {
+      "source": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "target": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "type": "DEPENDS_ON",
+      "reason": "Continue depends on Midjourney V6 to enhance its capabilities."
+    },
+    {
+      "source": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "target": "febe7e31-1c6f-4837-b819-e86b8488cee1",
+      "type": "DEPENDS_ON",
+      "reason": "Bolt.new depends on WebRTC to enhance its capabilities."
+    },
+    {
+      "source": "d0c4d815-1ab5-4508-8de8-abbe9b31a247",
+      "target": "8e3988a3-66c2-47c0-b791-132f606c88c9",
+      "type": "SUPPORTED_BY",
+      "reason": "Microsoft supported by Mixtral 8x7B to enhance its capabilities."
+    },
+    {
+      "source": "32c2c008-9a4e-49a2-9a2e-9f9cdde09d4f",
+      "target": "a973ebaa-a2d5-455a-a88e-56b1932ae6ef",
+      "type": "USES",
+      "reason": "GitHub Actions uses Google to enhance its capabilities."
+    },
+    {
+      "source": "cceecda6-1ae0-478e-8b6d-9864207d3f37",
+      "target": "a47e527f-09bb-453e-a9a7-bc5b26444345",
+      "type": "DEPENDS_ON",
+      "reason": "Image Generation depends on React to enhance its capabilities."
+    },
+    {
+      "source": "2c9ba68f-e7e9-4725-b33d-e1588c278a6a",
+      "target": "c6bf0f5a-3ac9-4b23-aff3-1c59b0be19c3",
+      "type": "SUPPORTED_BY",
+      "reason": "Elasticsearch supported by AWS Bedrock to enhance its capabilities."
+    },
+    {
+      "source": "64f8d09b-317f-4d60-b3e8-e3b1866d51ac",
+      "target": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "type": "SUPPORTED_BY",
+      "reason": "Continue supported by Gemma 7B to enhance its capabilities."
+    },
+    {
+      "source": "27579379-2e44-4a50-86e5-6f4c70743064",
+      "target": "a47e527f-09bb-453e-a9a7-bc5b26444345",
+      "type": "DEPENDS_ON",
+      "reason": "Linear Asks depends on React to enhance its capabilities."
+    },
+    {
+      "source": "4c4df2e6-439f-4e4f-bd60-ded2be70c3bf",
+      "target": "20d0bebf-638e-46e7-a466-9c55e7dbb804",
+      "type": "INTEGRATES_WITH",
+      "reason": "Claude 3 Opus integrates with Linear to enhance its capabilities."
+    },
+    {
+      "source": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "target": "a0b35e52-dfb6-45e6-9044-eafe095927fb",
+      "type": "USES",
+      "reason": "Anthropic API uses Google Cloud Vertex AI to enhance its capabilities."
+    },
+    {
+      "source": "a77beddd-da99-4e23-9db8-da3171376e52",
+      "target": "f330ff69-73ce-4331-809a-b3b40d784abc",
+      "type": "SUPPORTED_BY",
+      "reason": "ChatGPT supported by Midjourney V6 to enhance its capabilities."
+    },
+    {
+      "source": "febe7e31-1c6f-4837-b819-e86b8488cee1",
+      "target": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "type": "CONNECTS_TO",
+      "reason": "WebRTC connects to Anthropic to enhance its capabilities."
+    },
+    {
+      "source": "e543e45a-6656-428e-a4f3-dcd1b42a6fa4",
+      "target": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "type": "DEPENDS_ON",
+      "reason": "Make depends on Anthropic to enhance its capabilities."
+    },
+    {
+      "source": "7eee25c5-0d0a-4b0c-a1c8-921e0e03012b",
+      "target": "def0477d-f6ec-4973-93bb-0f7f72d49df9",
+      "type": "CONNECTS_TO",
+      "reason": "Anthropic API connects to Azure AI to enhance its capabilities."
+    },
+    {
+      "source": "26c762f6-fde0-498b-b1dd-b744c666edbb",
+      "target": "b1c5ffc9-9cad-43ac-b3e3-cc1c63e46197",
+      "type": "INTEGRATES_WITH",
+      "reason": "Voice/Audio integrates with Mistral to enhance its capabilities."
+    },
+    {
+      "source": "687b760b-56a6-4343-b5e0-13638f13046f",
+      "target": "77242751-1c8d-4308-a75b-4c4864aea3bf",
+      "type": "DEPENDS_ON",
+      "reason": "Vercel depends on Gemma 7B to enhance its capabilities."
+    },
+    {
+      "source": "59821f1f-f084-4cb0-b327-80733348f8c5",
+      "target": "8bee307f-8546-4415-a86c-26cf3cde5301",
+      "type": "DEPENDS_ON",
+      "reason": "Codeium depends on VS Code to enhance its capabilities."
+    },
+    {
+      "source": "7f808ee6-e855-4ce7-97f7-f1cd85557ef8",
+      "target": "f650b784-0b6e-4e62-906e-83453df85c9e",
+      "type": "SUPPORTED_BY",
+      "reason": "Claude supported by Bolt.new to enhance its capabilities."
+    },
+    {
+      "source": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "target": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "type": "CONNECTS_TO",
+      "reason": "Productivity connects to Phind-34B to enhance its capabilities."
+    },
+    {
+      "source": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "target": "a0cc6ee9-4a78-42a0-a5c3-d149f2d9757e",
+      "type": "USES",
+      "reason": "GraphQL uses Fireworks AI to enhance its capabilities."
+    },
+    {
+      "source": "fc6b581e-7fd3-4b96-b2e8-13e68d5128ad",
+      "target": "b42f33cf-51a0-4432-ab89-c9ba01193b1c",
+      "type": "CONNECTS_TO",
+      "reason": "OAuth2 connects to Zed to enhance its capabilities."
+    },
+    {
+      "source": "e4b18e41-2972-438b-8ac6-7d318915ce6d",
+      "target": "d2978801-fa80-438e-88fb-ba888e97441f",
+      "type": "DEPENDS_ON",
+      "reason": "Stripe depends on Warp to enhance its capabilities."
+    },
+    {
+      "source": "e0f486ae-9ce8-4eb6-a034-1a10bdcddad2",
+      "target": "a47e527f-09bb-453e-a9a7-bc5b26444345",
+      "type": "CONNECTS_TO",
+      "reason": "Cloud Infrastructure connects to React to enhance its capabilities."
+    },
+    {
+      "source": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "target": "b5fb174c-c735-4e4d-956d-829e61c3f814",
+      "type": "USES",
+      "reason": "Lovable uses NVIDIA to enhance its capabilities."
+    },
+    {
+      "source": "4db2bdd0-ae22-4b48-92a0-a4dfaaf082a6",
+      "target": "95a1f371-1181-44a5-8de9-caa69023a1c5",
+      "type": "SUPPORTED_BY",
+      "reason": "Anthropic supported by OpenAI API to enhance its capabilities."
+    },
+    {
+      "source": "ecc115fe-b054-4936-95dc-17e7f2de1fee",
+      "target": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "type": "DEPENDS_ON",
+      "reason": "Linear API depends on Weaviate to enhance its capabilities."
+    },
+    {
+      "source": "a72c8679-387f-4764-a23e-14cb046aac19",
+      "target": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "type": "DEPENDS_ON",
+      "reason": "GPT-3.5 depends on Django to enhance its capabilities."
+    },
+    {
+      "source": "bc329a70-b6c6-4b51-a529-55ce13c75995",
+      "target": "62bdf154-8b6d-43c1-95d1-625443104486",
+      "type": "INTEGRATES_WITH",
+      "reason": "Vercel Integrations integrates with Chroma to enhance its capabilities."
+    },
+    {
+      "source": "fa9d65aa-cd4a-457a-b693-49fde82a7bc2",
+      "target": "0bf229ae-efd3-4de7-9748-d160f27e4fab",
+      "type": "SUPPORTED_BY",
+      "reason": "Atlassian supported by FastAPI to enhance its capabilities."
+    },
+    {
+      "source": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "target": "b696c7c0-43a8-4558-ab72-dcafcd6ee18a",
+      "type": "INTEGRATES_WITH",
+      "reason": "Phind-34B integrates with MCP (Model Context Protocol) to enhance its capabilities."
+    },
+    {
+      "source": "d2978801-fa80-438e-88fb-ba888e97441f",
+      "target": "9d562ab0-6ce5-4e2c-848e-b353a45b94ec",
+      "type": "USES",
+      "reason": "Warp uses GraphQL to enhance its capabilities."
+    },
+    {
+      "source": "da85b05c-b134-4a37-8c5f-3e72e11c6a2b",
+      "target": "67eb90ae-56b2-4472-8d89-4ba9c8d94022",
+      "type": "DEPENDS_ON",
+      "reason": "Gemini 1.5 Flash depends on Lovable to enhance its capabilities."
+    },
+    {
+      "source": "b2d47a01-4b06-49b0-bf32-2ff8c938a77c",
+      "target": "e543e45a-6656-428e-a4f3-dcd1b42a6fa4",
+      "type": "USES",
+      "reason": "Groq uses Make to enhance its capabilities."
+    },
+    {
+      "source": "56278fe9-e9e1-42f3-aace-1fe45b2790da",
+      "target": "68983ce9-f89e-492a-abc4-5ac75611d85e",
+      "type": "USES",
+      "reason": "Weaviate uses Slack API to enhance its capabilities."
+    },
+    {
+      "source": "6a37f4d4-6658-4399-986e-1406e822f750",
+      "target": "655259f2-c293-4e5e-9e03-42ebf4f820a5",
+      "type": "DEPENDS_ON",
+      "reason": "WebStorm depends on Hugging Face to enhance its capabilities."
+    },
+    {
+      "source": "59a9fd47-f13f-4415-8ded-07499c3d8cfe",
+      "target": "daefc65e-7f8a-4901-8cbd-2095c63eb90e",
+      "type": "INTEGRATES_WITH",
+      "reason": "Notion integrates with Django to enhance its capabilities."
+    },
+    {
+      "source": "43e1639f-a66d-474d-8ff1-f2578bd42a80",
+      "target": "d76a3cfa-aa18-4832-937c-6a7f88c888f3",
+      "type": "INTEGRATES_WITH",
+      "reason": "Windsurf integrates with Figma to enhance its capabilities."
+    },
+    {
+      "source": "bc329a70-b6c6-4b51-a529-55ce13c75995",
+      "target": "5e8e9b4c-8129-46df-b30d-f5c3e3992ef8",
+      "type": "INTEGRATES_WITH",
+      "reason": "Vercel Integrations integrates with Baseten to enhance its capabilities."
+    },
+    {
+      "source": "55ecdd6b-7e59-46a1-b29c-a2313e239532",
+      "target": "28745d0c-5f66-4d2b-996c-2933157c10d5",
+      "type": "CONNECTS_TO",
+      "reason": "Phind-34B connects to GPT-4o to enhance its capabilities."
+    },
+    {
+      "source": "d9d6ae05-a20f-44e1-98d8-b91e80181a4f",
+      "target": "180222a9-b1c3-4c8e-8a35-d226d8d8d12b",
+      "type": "SUPPORTED_BY",
+      "reason": "Slack supported by Tailwind CSS to enhance its capabilities."
+    },
+    {
+      "source": "6768b699-ae99-41a4-a906-901f6f724afe",
+      "target": "dcd0af7e-9b0f-4443-a303-a23ba3a249d9",
+      "type": "CONNECTS_TO",
+      "reason": "Hugging Face Inference API connects to Llama 3 70B to enhance its capabilities."
+    },
+    {
+      "source": "02bc331d-7103-4bc6-a910-4b156cb6bd84",
+      "target": "71998c8b-6255-459b-a099-87c64d6ea559",
+      "type": "USES",
+      "reason": "Productivity uses Modal to enhance its capabilities."
+    }
+  ]
+}
